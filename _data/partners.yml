@@ -1,0 +1,734 @@
+partners:
+  - name: Ministry of Labour and Social Affairs
+    url: http://www.molsa.gov.et
+    address: |
+             Addis Ababa
+    country: Ethiopia
+    fund_amount: 
+    projects:
+      - project_name_am: ማኅበሩን በምክርና በገንዘብ በመርዳት
+        project_name_en: Advice and monetary support to the ENAD
+        donations:
+          - year: 
+            ref: 
+            amount: 
+      - project_name_am: በሚኒስቴሩ ዓመታዊ የሥራ አፈጻጸም ግምገማ ተሳታፊ እንዲሆን በማድረግ
+        project_name_en: Enabling the ENAD to participate in the Ministry's annual program implementation evaluation sessions
+        donations:
+          - year: 
+            ref: 
+            amount: 
+  - name: Ministry of Education
+    url: 
+    address: |
+             Addis Ababa
+    country: Ethiopia
+    fund_amount: 
+    projects:
+      - project_name_am: መስማት የተሳናቸው በዩኒቨርሲቲና በቴክኒካል ኮሌጆች ለመማር እንዲችሉ የፖሊሲ ውሳኔ በማድረግ
+        project_name_en: For making a policy decision to enable the deaf to pursue their education in the universities and technical colleges
+        donations:
+          - year: 
+            ref: 
+            amount:  
+      - project_name_am: በሚኒስቴሩ ዓመታዊ የሥራ አፈጻጸም ግምገማ ተሳታፊ እንዲሆን በማድረግ
+        project_name_en: Enabling the ENAD to participate in the Ministry's annual program implementation evaluation sessions
+        donations:
+          - year: 
+            ref: 
+            amount:  
+      - project_name_am: ማኅበራችን ለመስማት የተሳናቸው ትምህርት ላደረገው አስተዋጽኦ ማኅበሩን ወንጫ በመሸለም የምስክር ወረቀት በመስጠት እውቅና በመስጠቱ
+        project_name_en: For giving due recognition to ENAD's contribution to the education of the deaf by awarding it a prize and certificate
+        donations:
+          - year: 
+            ref: 
+            amount: 
+  - name: Addis Ababa University
+    url: 
+    address: |
+             Addis Ababa
+    country: Ethiopia
+    fund_amount: 
+    projects:
+      - project_name_am: መስማት የተሳናቸውን በዩኒቨርሲቲው ውስጥ በአስተማሪነት በመቅጠሩ
+        project_name_en: For employing deaf persons as instructors
+        donations:
+          - year: 
+            ref: 
+            amount: 
+      - project_name_am: መስማት የተሳናቸውን በተማሪነት በመቀበሉ
+        project_name_en: For accepting deaf students into the university
+        donations:
+          - year: 
+            ref: 
+            amount: 
+      - project_name_am: የልዩ ፍላጎት ትምህርት ፐሮገራም በመጀመሩ
+        project_name_en: For starting special needs education program
+        donations:
+          - year: 
+            ref: 
+            amount:  
+      - project_name_am: በምልክት ቋንቋና በመስማት የተሳናቸው ባህል የጥናትና ምርምር ፕሮግራም በመጀመሩ
+        project_name_en: For starting Sign Language and Deaf Culture studies program
+        donations:
+          - year: 
+            ref: 
+            amount: 
+  - name: Addis Ababa Administration Education Bureau
+    url: 
+    address: |
+             Addis Ababa
+    country: Ethiopia
+    fund_amount: 
+    projects:
+      - project_name_am: በማኅበራችን ተጀምሮ የነበረው በመሰናዶ ትምህርት ቤቶች ለመስማት የተሳናቸው የማስተርጎም ፕሮጀክት የሁለት ዓመት የአገልግሎት ዘመኑ እንደ ተጠናቀቀ የምልክት ቋንቋ አስተርጓሚዎቹን በቋሚነት በመቅጠር የማስተርጎም አገልግሎቱ እንዲቀጥል በማድረጉ፤
+        project_name_en: For continuing the ENAD project for interpreting to deaf students at preparatory schools by employing the Sign Language interpreters on a permanent basis when the project ended after two years of service.
+        donations:
+          - year: 
+            ref: 
+            amount:  
+  - name: Ministry of Health
+    url: 
+    address: |
+             Addis Ababa
+    country: Ethiopia
+    fund_amount: 
+    projects:
+      - project_name_am: መስማት የተሳናቸው ችግረኞች አባሎች ነፃ የሕክምና አገልግሎት ሲያገኙ የቆዩትን አገልግሎት እንዲቀጥል በማድረጉ፤
+        project_name_en: For allowing the free medical service to needy members to continue
+        donations:
+          - year: 
+            ref: 
+            amount:   
+      - project_name_am: በሚኒስቴሩ ዓመታዊ የሥራ አፈጻጸም ግምገማ ተሳታፊ እንዲሆን በማድረግ
+        project_name_en: Enabling the ENAD to participate in the Ministry's annual program implementation evaluation sessions
+        donations:
+          - year: 
+            ref: 
+            amount:   
+  - name: Addis Ababa Administration Health Bureau
+    url: 
+    address: |
+             Addis Ababa
+    country: Ethiopia
+    fund_amount: 
+    projects:
+      - project_name_am: በማኅበራችንና በኤች.አይ.ቪ/ኤይድስ መከላከያና መቆጣጠሪያ ቢሮ ትብብር የተጀመረውን የኤች.አይ.ቪ/ኤይድስ የበጎ ፈቃደኝነት ምክርና ምርመራ አገልግሎት ለመስማት የተሳናቸው በሰለጠኑ የመስማት የተሳናቸው በኩል የመስጠት ፕሮጄክት የአገልግሎት ዘመኑ ሲጠናቀቅ ምክር የሚሰጡትን መስማት የተሳናቸውን በቋሚነት በመቅጠር አገልግሎቱ እንዲቀጥል በማድጉ፤  
+        project_name_en: For employing on a permanent basis the deaf voluntary counseling and testing (VCT) counselors from the project that was started by the ENAD in cooperation with the HIV/AIDs Prevention and Control Office and allowing the service to continue.
+        donations:
+          - year: 
+            ref: 
+            amount: 
+      - project_name_am:  
+        project_name_en: For sponsoring basic Sign Language training for health professionals and front line staff of health centers in Addis Ababa
+        donations:
+          - year: 
+            ref: 
+            amount:  
+  - name: Ministry of Culture and Tourism
+    url: 
+    address: |
+             Addis Ababa
+    country: Ethiopia
+    fund_amount: 
+    projects:  
+      - project_name_am: በሚኒስቴሩ ዓመታዊ የሥራ አፈጻጸም ግምገማ ተሳታፊ እንዲሆን በማድረግ
+        project_name_en: Enabling the ENAD to participate in the Ministry's annual program implementation evaluation sessions
+        donations:
+          - year: 
+            ref: 
+            amount:    
+      - project_name_am: በየዓመቱ የዓለም ሴቶች ቀንን ምክንያት በማድረግ በሚያዘጋጀው ባህላዊ ጉብኝት ማኅበራችንን በማሳተፉ
+        project_name_en: Enabling the ENAD to participate in the Ministry's annual visits to cultural centers on the occasion of International Women's Day (March 8)
+        donations:
+          - year: 
+            ref: 
+            amount:     
+      - project_name_am: በየዓመቱ የዓለም ቱሪዝም ቀንን ምክንያት በማድረግ በሚያዘጋጀው ባህላዊ ጉብኝት ማኅበራችንን በማሳተፉ
+        project_name_en: Enabling the ENAD to participate in the Ministry's annual visits to cultural centers on the occasion of International Tourism Day
+        donations:
+          - year: 
+            ref: 
+            amount:     
+      - project_name_am: በአፍ መፍቻ ቋንቋ ቀን ማኅበራችን እንዲሳተፍ በማድረግ ለምልክት ቋንቋም ክብር በመስጠቱ
+        project_name_en: Enabling the ENAD to participate in the observance of Mother Tongue Day and thus giving due recognition to Sign Language
+        donations:
+          - year: 
+            ref: 
+            amount:  
+  - name: Addis Ababa Administration Culture and Tourism Bureau
+    url: 
+    address: |
+             Addis Ababa
+    country: Ethiopia
+    fund_amount: 
+    projects:  
+      - project_name_am: በአዲስ አበባ ውስጥ የሚገኙ የባህል ማዕከላት ጉብኝት የተወሰኑ አባሎቻችን እንዲሳተፉ በማድረጉ፤
+        project_name_en: For enabling some of our members to participate in the visit to cultural centers in Addis Abab.
+        donations:
+          - year: 
+            ref: 
+            amount:  
+  - name: Addis Ababa Administration Women's and Children's Bureau
+    url: 
+    address: |
+             Addis Ababa
+    country: Ethiopia
+    fund_amount: 
+    projects:  
+      - project_name_am: ከማኅበራችን ጋር በመተባበር ከተለያዩ የመንግሥት መሥሪያ ቤቶች ለተውጣጡ ሠራተኞች በመሠረታዊ የምልክት ቋንቋ እንዲሰለጥኑ ባመድረጉ
+        project_name_en: For allowing staff from various governmental offices to get training in basic Sign Language in cooperation with the ENAD
+        donations:
+          - year: 
+            ref: 
+            amount:  
+      - project_name_am: የተወሰኑ የማኅበራችን ሴቶች አባሎች በሴቶች ፀጉር ሥራ እንዲሁም ወንዶች አባሎች በቆዳ ሥራ የሙያ ሥልጠና እንዲያገኙ በመርዳቱ
+        project_name_en: For assisting some of our female members to get vocational training in hair dressing and male members in leather works.
+        donations:
+          - year: 
+            ref: 
+            amount:   
+      - project_name_am: የማኅበራችን የሴቶች ዘርፍ ዓለም አቀፍ የሴቶች ቀን ለማክበር እንዲችሉ በመርዳቱ
+        project_name_en: For assisting our Women's Section to celebrate International Women's Day
+        donations:
+          - year: 
+            ref: 
+            amount:  
+  - name: Ministry of Foreign Affairs of Finland and the Finnish Association of the Deaf
+    url: fad
+    address: |
+             The Finnish Association of the Deaf (FAD)<br/>
+             P. O. Box 57<br/>
+             00400 Helsinki
+    country: Finland
+    fund_amount: 
+    projects:
+      - project_name_am: የምልክት ቋንቋ አሰልጣኞች ሥልጠና፤
+        project_name_en: Training of Sign Language Instructors 
+        donations:
+          - year: 1992?
+            ref: 
+            amount: 
+      - project_name_am: የምልክት ቋንቋ አስተርጓሚዎች ሥልጠና፤
+        project_name_en: Certificate of Sign Language Interpreting Training for Eastern and Southern Africa Sign Language Project Level One
+        donations:
+          - year: 1992?
+            ref: 
+            amount:  
+      - project_name_am: የምልክት ቋንቋ አስተርጓሚዎች ሥልጠና፤
+        project_name_en: Certificate of Sign Language Interpreting Training for Eastern and Southern Africa Sign Language Project Level Two
+        donations:
+          - year: 23 June 2000
+            ref: 
+            amount:  
+      - project_name_am: የሥራ አመራር ሥልጠና
+        project_name_en: Leadership Training on Get to Know your Organization and management, strategic planning and related topics offered by the Eastern and Southern Africa Regional Organization Training Project
+        donations:
+          - year: 1992?
+            ref: 
+            amount:   
+      - project_name_am: የሥራ አመራር ሥልጠና
+        project_name_en: Certificate of Leadership and strategic planning Training Workshop offered by the Eastern and Southern Africa Regional Organization Training Project
+        donations:
+          - year: October 2004
+            ref: 
+            amount: 
+      - project_name_am: የኢትዮጵያ ምልክት ቋንቋ መዝገበ ምልክት ዝግጅትና ሕትመት፤
+        project_name_en: Preparation and Publication of Ethiopian Sign Language Dictionary, a project implemented by the Ethiopian National Association of the Deaf (ENAD) and Finnish Association of the Deaf (FAD)  
+        donations:
+          - year: 2002 - 2007
+            ref: 
+            amount:   
+      - project_name_am: የመስማት የተሳናቸው ሴቶች የአቅም ግንባታና የኤች.አይ.ቪ/ኤድስ መከላከል፤
+        project_name_en: Deaf Women Empowerment and HIV/AIDs Prevention Project 
+        donations:
+          - year: 2008 - 2011
+            ref: 
+            amount: 
+      - project_name_am: በኤች.አይ.ቪ እና በሥነ ተዋለዶ ጤና ሥልጠና እና ቡና/ሻይ ፕሮግራም፤
+        project_name_en: Deaf Women Empowerment and HIV/AIDs Prevention Project
+        donations:
+          - year: 2013 - 2016
+            ref: 
+            amount:  
+      - project_name_am: ድርጅታዊ የአቅም ግንባታና የመስማት የተሳናቸው ሴቶች የማጎልበት ፕሮጄክት
+        project_name_en: Organizational Development and Deaf Women's Empowerment Project
+        donations:
+          - year: 2017 - 
+            ref: 
+            amount:   
+      - project_name_am: የባህል ልውውት ጉብኝት ወደ ፊንላንድ ለተመረጡ አባሎች፤
+        project_name_en: Cultural Exchange Visit to Finland for Selected Members
+        donations:
+          - year:  
+            ref: 
+            amount:    
+      - project_name_am: የራፐር "ሣይንማርክ" ትርኢት በአዲስ አበባ፤
+        project_name_en: Rapper Signmark's Performance in Addis Ababa
+        donations:
+          - year:  
+            ref: 
+            amount:
+  - name: ILO and UNESCO Area Offices
+    url: 
+    address: |
+             Addis Ababa
+    country: Ethiopia
+    fund_amount: 
+    projects:
+      - project_name_am: ለ16 የምልክት ቋንቋ አስተርጓሚዎች የስድስት ወር የእንግሊዝኛ ቋንቋ ችሎታ ማሻሻያ ሥልጠና የአቅም ግንባታ ፕሮጄክት፤
+        project_name_en: Capacity Building Project to provide to 16 Sign Language Interpreters English Language skills upgrading training for six months.
+        donations:
+          - year: 2001
+            ref: 
+            amount: 
+      - project_name_am: አዲስ አበባ ውስጥ ለተመረጡ የሁለተኛ ደረጃ ትምህርት ቤቶች የምልክት ቋንቋ አስተርጓሚዎች መቅጠር፤ 
+        project_name_en: Employment of Sign Language interpreters for selected high schools in Addis Ababa
+        donations:
+          - year: 2001
+            ref: 
+            amount: 
+  - name: SOS Children's Villages
+    url: 
+    address: |
+             Addis Ababa
+    country: Ethiopia
+    fund_amount: 
+    projects:
+      - project_name_am: በማኅበራችን ስር ለሚገኘው የኮ-አክሽን የሕፃናት መዋያ የምግብ አረልግሎት ድጋፍ፤ 
+        project_name_en: Support to the feeding project to deaf children at the ENAD Co-Action Preschool.
+        donations:
+          - year: 2001
+            ref: 
+            amount:
+  - name: Federal HIV/AIDs Prevention and Control Office
+    url: 
+    address: |
+             Addis Ababa
+    country: Ethiopia
+    fund_amount: 
+    projects:
+      - project_name_am: በአዲስ አበባና በክልል የማኅበራችን ቅርንጫፎች ላሉት መስማት የተሳናቸው መሠረታዊ የኤች.አይ.ሺ. ግንዛቤ ትምህርትና ሥልጠና፣ ለቢሮ ማጠናከሪያ እና ለሻይ/ቡና የርስ በርስ ምክክር ፕሮግራም ዕርዳታ፤
+        project_name_en: Training program on the prevention of HIV/AIDs to the deaf in Addis Ababa and at ENAD branches, provision of furniture to strengthen the branch offices and peer to peer counseling through Tea/Coffee ceremonies
+        donations:
+          - year: 200??
+            ref: 
+            amount: 
+  - name: Addis Ababa HIV/AIDs Prevention and Control Office
+    url: 
+    address: |
+             Addis Ababa
+    country: Ethiopia
+    fund_amount: 
+    projects:
+      - project_name_am: መስማት የተሳናቸው በፈቃደኝነት የኤች.አይ.ቪ. ምክርና ምርመራ አገልግሎት ማግኘት እንዲችሉ ለ10 መስማት የተሳናቸውና ለ15 የምልክት ቋንቋ አስተርጓሚዎች በአዳማ የአንድ ወር ሥልጠና፤
+        project_name_en: Training to 10 deaf and 15 Sign Language Interpreters on the provision of voluntary Counseling and Testing service on HIV/AIDs, at Adama for one month. 
+        donations:
+          - year: 200??
+            ref: 
+            amount: 
+      - project_name_am: አዲስ አበባ ውስጥ በሁለት ሆስፒታሎችና በአንድ የጤና ጣቢያ ውስጥ በፈቃደኝነት የኤች.አይ.ቪ. ምክርና ምርመራ አገልግሎት የሚሰጡ መስማት የተሳናቸው በመመደቡ፤
+        project_name_en: Placement of deaf counselors to provide voluntary counseling and testing services on HIV/AIDs to the deaf at two hospitals and one health center in Addis Ababa. 
+        donations:
+          - year: 200??
+            ref: 
+            amount:  
+  - name: Federation of National Associations of Persons with Disabilities (FENAPD)
+    url: 
+    address: |
+             Addis Ababa
+    country: Ethiopia
+    fund_amount: 
+    projects:
+      - project_name_am: ከወርልድ ለርኒግ ባገኘው የገንዘብ ድጋፍ ኤች.አይ.ቪ./ኤድስ ላለባቸው የማኅበራችን አባሎች ሥልጠና፣ የምግብ እና የትራንስፖርት ወጪ መሸፈኛ ዕርዳታ እንዲያገኙ በመርዳቱ፤
+        project_name_en: Provided training on HIV/AIDs, food and transportation to ENAD members living with HIV. Source of fund was World Learning. 
+        donations:
+          - year: 200??
+            ref: 
+            amount: 
+      - project_name_am: ከወርልድ ለርኒግ ባገኘው የገንዘብ ድጋፍ የማኅበራችን አባሎች የኢንተርኔት አገልግሎት ለማግኘት እንዲችሉ የ10 ኮምፒዩተሮች፣ አራት ላፕቶፖች፣ አንድ ቪዲዮ ካሜራ፣ ሶስት ሜዴረደሪያዎች እና የማኅበሪ መጸዳጃ ቤት በማሥራት ዕርዳታ አድርጓል፤  
+        project_name_en: Provision of 10 desktop computers, four laptop computers, one video camera, one Canon EOS 7D digital photo camera, four CDMA dongles, one scanner, four shelves, one meeting table with six chairs, partitioning a portion of the ENAD Hall to serve as a cyber cafe and construction of the ENAD rest room.  Source of fund was World Learning. 
+        donations:
+          - year: 200??
+            ref: 
+            amount: 
+      - project_name_am: ከአይሪሽ ኤይድ በተገኘ ዕድራታ፡- ለ10 መስማት የተሳናቸው ባላቸው ሙያ መሥራት እንዲችሉ የብድርና ቁጠባ ሂሳብ ተከፍቶ የገንዘብ ድጋፍ ገቢ ተደርጎላቸዋል። 
+        project_name_en: Provision of credit and saving to 10 deaf to enable them to work on their available skills. Irish Aid funded. 
+        donations:
+          - year: 200??
+            ref: 
+            amount:  
+      - project_name_am: ከአይሪሽ ኤይድ በተገኘ ዕድራታ፡- ለ23 መስማት የተሳናቸው የመምህራን ኮሌጅ ተማሪዎች የትራንስፖርት፣ የወረቀትና የፎቶ ኮፒ ወጪ መሸፈኛ የሚሆናቸው ድጋፍ፤
+        project_name_en: Provision of money for transportation, paper and photo copying to 23 deaf students at teachers training colleges. Irish Aid funded. 
+        donations:
+          - year: 200??
+            ref: 
+            amount:   
+      - project_name_am: ከአይሪሽ ኤይድ በተገኘ ዕድራታ፡- የአዳማ ቅርንጫፍ 5 መስማት የተሳናቸው ወንዶች በእንጨት ስራ፣ 5 መስማት የተሳናቸው ሴቶች ደግሞ በምግብ ዝግጅት በቴክኒክና ሙያ ሥልጠና አሠለአጠአኖ በተማሩት ሙያ እየሠሩ ራሳቸውን እንዲረዱ የማደራጃ የገንዘብ ድጋፍ ተደርጎላቸዋል።
+        project_name_en: Training at technical and vocational college of 5 deaf males in carpentry and 5 deaf females from Adama branch in food preparation and provision of start up capital. Irish Aid funded. 
+        donations:
+          - year: 200??
+            ref: 
+            amount:   
+      - project_name_am: ከCSSP በተገኘ ዕድራታ፡- የባሕርዳር መስማት የተሳናቸው ቅርንጫፍ ጽሕፈት ቤት ቢሮ ማጠናከሪያ የቁሳቁስ ድጋፍ፤
+        project_name_en: Material support to ENAD branch office in Bahirdar. CSSP funded. 
+        donations:
+          - year: 200??
+            ref: 
+            amount:   
+      - project_name_am: ከCSSP በተገኘ ዕድራታ፡- በባሕርዳር አቸፈር ዞን የሚገኙ መስማት የተሳናቸው በግብርናና ተደራጅተው በከብት ዕርባታ አንዲሠሩ የማተሪያል ድጋፍ፤
+        project_name_en: Material support to the deaf in Bahirdar Achefer Zone to get them organized and engaged in farming and dairy production. CSSP funded. 
+        donations:
+          - year: 200??
+            ref: 
+            amount:   
+      - project_name_am: ከCSSP በተገኘ ዕድራታ፡- በዝቅተኛ ገቢ ምክንያት ያለትምህርት የተቀመጡት መስማት የተሳናቸው በማኅበር ተደራጅተው በመሥራት ትምህርታቸውን እንዲቀጥሉ ማገዝ፤
+        project_name_en: Enable the deaf from low income families to get organized in an association and become productive and continue their education. CSSP funded. 
+        donations:
+          - year: 200??
+            ref: 
+            amount:   
+      - project_name_am: ከCSSP በተገኘ ዕድራታ፡- የጤና ነክ ጉዳዮች ማስተማሪያ በምልክት ቋንቋ ትርጉማ የተዘጋጀ "ሲዲ" ታትሞ/ተባዝቶ ማሰራጨት፤
+        project_name_en: Preparation of a CD containing health related information in Sign Language and dissemination to all concerned. CSSP funded. 
+        donations:
+          - year: 200??
+            ref: 
+            amount:  
+  - name: Ethiopian Center for Disability and Development (ECDD)
+    url: http://www.ecdd-ethiopia.org/
+    address: |
+             Addis Ababa
+    country: Ethiopia
+    fund_amount: 
+    projects:
+      - project_name_am: <strong>የኤቢሊስ ፕሮጄክት፡-</strong> ለኮ-አክሽን የሕፃናት መዋያ መምህራን የሙያ ማዳበሪያ ሥልጠና፤
+        project_name_en: <strong>Abilis Project:-</strong> Training to the preschool teachers of the ENAD Co-Action Preschool.
+        donations:
+          - year: 200??
+            ref: 
+            amount: 
+      - project_name_am: <strong>የኤቢሊስ ፕሮጄክት፡-</strong> የኮ-አክሽን የሕፃናት መዋያ ተማሪዎች ከቤተሰባቸው ጋር ለመግባባት እንዲችሉ ከየቤተሰባቸው ለአንድ አባል የምልክት ቋንቋ ሥልጠና፤
+        project_name_en: <strong>Abilis Project:-</strong> Training in Sign Language to a family member of Co-Action Preschool children in order to enable the children to communication with their respective families.
+        donations:
+          - year: 200??
+            ref: 
+            amount:  
+      - project_name_am: በአዲስ አበባና በተለያዩ ክልሎች ላሉት መምህራንና የጤና ባለሙያዎች የምልክት ቋንቋ ሥልጠና፤
+        project_name_en: Training in Sign Language to teachers and health professionals in Addis Ababa and some regions. 
+        donations:
+          - year: 200??
+            ref: 
+            amount:  
+      - project_name_am: በአዲስ አበባና ዩኒቨርሲቲ ለሚማሩ መስማት የተሳናቸው ተማሪዎች የኪስ ገንዘብ ዕርዳታ፤
+        project_name_en: Provision of pocket money to deaf students at the Addis Ababa University. 
+        donations:
+          - year: 200??
+            ref: 
+            amount:  
+      - project_name_am: ሥራ አጥ የሆኑ መስማት የተሳናቸው የቴክኒክ ሙያ ሥልጠና ተሰጥቶአቸው በተማሩት ሙያ መሥራት እንዲችሉ የተወሰኑቱ በተለያዩ መሥሪያ ቤቶች ሥራ እንዲያገኙ ሲረዱ፣ የተቀሩት ደግሞ በሕብረት መሥራት እንዲችሉ የመንቀሳቀሻ ገንዘብ ዕርዳታ አድርጎላቸዋል።
+        project_name_en: Provision technical training of jobless deaf and supported some of them in job placement and the rest were organized to work in a cooperative by providing them with start-up capital. 
+        donations:
+          - year: 200??
+            ref: 
+            amount:  
+  - name: Danish Deaf Association
+    url: 
+    address: |
+    country: Denmark
+    fund_amount: 
+    projects:
+      - project_name_am: የማኅበራችን የስብሰባ አዳራሽ ዛኒጋባ የነበረው ግድግዳዎቹ በብሎኬትና በኮንክሪት ተጠናክሮ እንዲሠራና ጣራው እንደ አዲስ ቆርቆሮ እንዲለብስ አድርገው በማሠራታቸው 
+        project_name_en: Renovation of the ENAD assembly hall, which was an open shanty, by constructing the walls with hollow blocks and reinforced concrete and roofing it anew.
+        donations:
+          - year: 200??
+            ref: 
+            amount: 
+      - project_name_am: የማኅበራችን ቢሮ እድሳት
+        project_name_en: Renovation of the ENAD office.
+        donations:
+          - year: 200??
+            ref: 
+            amount: 
+      - project_name_am: የማኅበራችን መዝናኛ በቡናና የሻይ መኪና፣ ባር፣ ጠረጴዛዎችና ወንበሮች ተሟልቶ እንዲደራጅ በመርዳታቸው
+        project_name_en: Fully equipped the ENAD recreation center with the necessary coffee/tea machine, bar, tables and chairs
+        donations:
+          - year: 200??
+            ref: 
+            amount:   
+  - name: Danish Individual (Who was she/he ?)
+    url: 
+    address: |
+    country: Denmark
+    fund_amount: 
+    projects:
+      - project_name_am: ለኮ-አክሽን የሕፃናት ትምህርት ቤት ዕርዳታ በማድረጋቸው
+        project_name_en: Donated to the ENAD Co-Action Preschool.
+        donations:
+          - year: 200??
+            ref: 
+            amount:     
+  - name: Mr. Belai Teklu ( Belai Teklu Pastry)
+    url: 
+    address: |
+    country: Ethiopia
+    fund_amount: 
+    projects:
+      - project_name_am: ለማኅበራችን የገንዘብ ዕርዳታ በማድረጋቸው
+        project_name_en: For donating money to the ENAD
+        donations:
+          - year: 200??
+            ref: 
+            amount:
+      - project_name_am: መስማት የተሳናቸው አባሎቻችን ሲያገቡ የሠርግ ኬክ በነፃ እንዲወስዱ ቋሚ ውሳኔ በማድረጋቸው። 
+        project_name_en: For instituting a standing order to provide to our members celebrating their weddings with wedding cakes free of charge
+        donations:
+          - year: 200??
+            ref: 
+            amount:    
+  - name: Mr. Robert (Bob) Ransom
+    url: 
+    address: |
+    country: Ethiopia
+    fund_amount: 
+    projects:
+      - project_name_am: የማኅበራችን ታማኝ አጋር፣ የመስማት የተሳናቸው እውነተኛ ጓደኛ እና ረዳት በመሆናቸው
+        project_name_en: For being a faithful partner of the ENAD and a true friend and helper of the deaf
+        donations:
+          - year: 200??
+            ref: 
+            amount:     
+  - name: Mr. Rene and Ms. Liya Visco
+    url: 
+    address: |
+    country: USA
+    fund_amount: 
+    projects:
+      - project_name_am: ለማኅበራችን የኮምፒዩተር (ላፕቶፕ) ዕርዳታ በማድረጋቸው
+        project_name_en: For donating a laptop computer to the ENAD
+        donations:
+          - year: 200??
+            ref: 
+            amount: 
+      - project_name_am: የተለያዩ መጻሕፍት በመርዳታቸው
+        project_name_en: For donating various books to the ENAD
+        donations:
+          - year: 200??
+            ref: 
+            amount:    
+  - name: Getahun Kebede and Family Wood Works Enterprise
+    url: 
+    address: |
+    country: Ethiopia
+    fund_amount: 
+    projects:
+      - project_name_am: ለማኅበራችን የሴቶችና የወጣቶች ዘርፎች ከእንጨት የተሠሩ መደርደሪያዎች በመለገሳቸው
+        project_name_en: For donating wooden furniture to the ENAD women and youth sections.
+        donations:
+          - year: 200??
+            ref: 
+            amount:   
+  - name: Mr. Getahun Kebede
+    url: 
+    address: |
+    country: USA
+    fund_amount: 
+    projects:
+      - project_name_am: የማኅበራችን 30ኛው ዓመት ሲከበር የገንዘብ ዕርዳታ በማድረጋቸው
+        project_name_en: For donating towards the celebration of ENAD's 30th year founding anniversary
+        donations:
+          - year: 200??
+            ref: 
+            amount: 
+      - project_name_am: ለኮ-አክሽን የሕፃናት ትምህርት ቤት ዕርዳታ በማድረጋቸው
+        project_name_en: For donating money in support of the ENAD Co-Action Preschool.
+        donations:
+          - year: 2012
+            ref: 
+            amount: $100.00 
+  - name: Mr. Mengesha Seyoum
+    url: 
+    address: |
+    country: USA
+    fund_amount: 
+    projects:
+      - project_name_am: ከሌሎች ድርጅቶች የተለያዩ መጻሕፍት ሰብስበው ለማኅበራችን በማስረከባቸው
+        project_name_en: For collecting 130 different books from an organization and handing them to the ENAD
+        donations:
+          - year: 200??
+            ref: 
+            amount:  
+      - project_name_am: ለኮ-አክሽን የሕፃናት ትምህርት ቤት ዕርዳታ በማድረጋቸው
+        project_name_en: For donating money in support of the ENAD Co-Action Preschool.
+        donations:
+          - year: 2012
+            ref: 
+            amount: $100.00
+      - project_name_am: ለማኅበራችን የአረጋውያን ክለብ ዕርዳታ በመለገሳቸው
+        project_name_en: For donating money to the ENAD's Deaf Seniors Club.
+        donations:
+          - year: 2017
+            ref: 
+            amount: $100.00  
+  - name: Mr. Getahun Kebede, Mr. Haile Abebe, Mr. Kidane Habte and Mr. Mengesha Seyoum
+    url: 
+    address: |
+    country: USA
+    fund_amount: 
+    projects: 
+      - project_name_am: አራቱም በመተባበር የቪዲዮ ካሜራ ዕርዳታ በማድረጋቸው
+        project_name_en: For donating a video camera to the ENAD
+        donations:
+          - year: 200??
+            ref: 
+            amount:
+  - name: Mr. Getahun Kebede, Mr. Hailu Yesuneh, Mr. Kidane Habte and Mr. Megesha Seyoum
+    url: 
+    address: |
+    country: USA
+    fund_amount: 
+    projects:
+      - project_name_am: ሁለት ለመስማት የተሳናቸው አገልግሎት የሚሰጡ በጽሑፍ የስልክ መገናኛ መሣሪያዎች በመለገሳቸው 
+        project_name_en: For donating two TTY machines to the ENAD
+        donations:
+          - year: 200??
+            ref: 
+            amount:   
+  - name: Ms. Kidist Belachew Lemma
+    url: 
+    address: |
+    country: USA
+    fund_amount: 
+    projects: 
+      - project_name_am: ለኮ-አክሽን የሕፃናት ትምህርት ቤት ዕርዳታ በማድረጋቸው
+        project_name_en: For donating money in support of the ENAD Co-Action Preschool.
+        donations:
+          - year: 201?
+            ref: 
+            amount: $100.00   
+  - name: Ms. Fanaye Doko
+    url: 
+    address: |
+    country: USA
+    fund_amount: 
+    projects: 
+      - project_name_am: ለኮ-አክሽን የሕፃናት ትምህርት ቤት የገንዘብ ዕርዳታ በማድረጋቸው
+        project_name_en: For donating money in support of the ENAD Co-Action Preschool.
+        donations:
+          - year: 2017
+            ref: 
+            amount: $100.00  
+      - project_name_am: ለ2010 ዓለም አቀፍ የመስማት የተሳናቸው ሳምንት በዓል አከባበር የገንዘብ ዕርዳታ በመለገሳቸው
+        project_name_en: For donating money towards the celebration of the International Week of the Deaf 2017
+        donations:
+          - year: 2017
+            ref: 
+            amount: $100.00  
+  - name: Mr. Abraham Lilai
+    url: 
+    address: |
+    country: USA
+    fund_amount: 
+    projects:
+      - project_name_am: ለማኅበራችን ኮ-አከክሽን የሕፃናት ትምህርት ቤት የገንዘብ ዕርዳታ በመለገሳቸው
+        project_name_en: For donating money in support of the ENAD Co-Action Preschool
+        donations:
+          - year: 2015?
+            ref: 
+            amount: 
+  - name: Mr. Abdulrazaq Gudu
+    url:
+    address: |
+    country: USA
+    fund_amount:
+    projects:   
+      - project_name_am: ለማኅበራችን የመስማት የተሳናቸው አረጋውያን ክለብ የገንዘብ ዕርዳታ በመለገሳቸው 
+        project_name_en: For donating money in support of the our Deaf Seniors Club
+        donations:
+          - year: 2017
+            ref: 
+            amount:  
+  - name: Mr. Abdulrazaq Gudu, Mr. Abraham Lilai and Mr. Getahun Kebede
+    url: 
+    address: |
+    country: USA
+    fund_amount: 
+    projects:
+      - project_name_am: የተለያዩ የስፖርት ዕቃዎች በማበርከታቸው 
+        project_name_en: Donated various sport materials to the ENAD.
+        donations:
+          - year: 2017
+            ref: 
+            amount:  
+  - name: Hiwot Family (Hiwot Foundation)
+    url: 
+    address: |
+    country: USA
+    fund_amount: 
+    projects:
+      - project_name_am: የማኅበራችን የኮ-አክሽን ሕፃናት ትምህርት ቤት ሕፃናት ምገባ፣ ለመምህራን እና ለሕፃናቱ ወላጆች የትራንስፖርት ወጪ በመሸፈናቸው
+        project_name_en: Feeding service to ENAD's Co-Action Preschool children and covering transportation costs for the teachers and the parents of the children
+        donations:
+          - year: 200??
+            ref: 
+            amount:    
+  - name: Mr. Josua Wesemann
+    url: 
+    address: |
+    country: Wesemann Travel, The Netherlands
+    fund_amount: 
+    projects:
+      - project_name_am: ለማኅበራችን የአረጋውያን ክለብ ዕርዳታ በመለገሳቸው
+        project_name_en: For donating money to the ENAD's Deaf Seniors Club
+        donations:
+          - year: 2016
+            ref: 
+            amount: Birr 1,000.00    
+  - name: Mr. Twan Wouters
+    url: 
+    address: |
+    country: Dorze Lodge, Ethiopia / The Netherlands
+    fund_amount: 
+    projects:
+      - project_name_am: ለማኅበራችን የአረጋውያን ክለብ ዕርዳታ በመለገሳቸው
+        project_name_en: For donating money to the ENAD's Deaf Seniors Club
+        donations:
+          - year: 2016
+            ref: 
+            amount: Birr 300.00    
+  - name: Ethiopian Family Guidance Association
+    url: 
+    address: |
+    country: Ethiopia 
+    fund_amount: 
+    projects:
+      - project_name_am: አልረዱም ወይ?
+        project_name_en: Did not they help?
+        donations:
+          - year: 201?
+            ref: 
+            amount:     
+  - name: Cheshire Ethiopia (?)
+    url: 
+    address: |
+    country: Ethiopia 
+    fund_amount: 
+    projects:
+      - project_name_am: አልረዱም ወይ?
+        project_name_en: Did not they help?
+        donations:
+          - year: 201?
+            ref: 
+            amount:    
+  - name: Ms. Markie (?) ሙሉ ስሟ ማን ነው? 
+    url: 
+    address: |
+    country: Ethiopia 
+    fund_amount: 
+    projects:
+      - project_name_am: ለአዲስ አበባ ቅርንጫፍ የሴቶች ዘርፍ የቡና/ሻይ ፕሮግራም ዕርዳታ በለመገሳቸው
+        project_name_en: For donating towards the Coffee/Tea Program of the Addis Ababa Women's Section.
+        donations:
+          - year: 201?
+            ref: 
+            amount:
+

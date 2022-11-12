@@ -1,0 +1,16 @@
+---
+layout: page
+---
+
+<div class="row">
+	{% assign authors_filtered=site.authors | where:"lang", page.lang %}
+  {% for author in authors_filtered %}
+    <div class="col-md-6 col-lg-4 col-xl-3">
+      <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
+      <div>
+      <h3>{{ author.position }}</h3>
+      <p>{{ author.content | markdownify }}</p>
+      </div>
+    </div>
+	{% endfor %}
+</div>

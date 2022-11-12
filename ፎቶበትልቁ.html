@@ -1,0 +1,29 @@
+---
+<!-- layout: default -->
+title: Photo
+lang: am
+ref: photo
+---
+
+<div class="row center-block">
+
+	<script type="text/javaScript">
+
+		function removeData(dat) {
+		  //window.localStorage.removeItem(dat);
+		  window.sessionStorage.removeItem(dat);
+		}
+
+		window.onload = function() {
+			//var dataImage = localStorage.getItem('imgData');
+			var dataImage = sessionStorage.getItem('imgData');
+			imgToShow = document.getElementById('theImage');
+			imgToShow.src = dataImage;
+			//removeData('imgData');
+		}
+
+	</script>
+
+	<img src="" alt="ፎቶ" id="theImage" class="img-responsive">
+	
+</div>

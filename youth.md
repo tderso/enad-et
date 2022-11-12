@@ -1,0 +1,216 @@
+---
+layout: page
+title: Services to Deaf Youth
+lang: en
+ref: youth
+description: Services to the deaf youngsters
+pageHero: /assets/images/hero.png
+---
+<aside class="post-aside">
+  {% include nav-youth.html %}
+</aside>
+<div class="post-content">
+  {% include nav-youth.html %}
+	<h2>The Educational, Social, Communication and Recreation needs of deaf Youth</h2>
+	<div>
+		<p>
+			It could be said that most of the activities of the ENAD were and are still directed towards serving the deaf youngsters. Because membership at the ENAD starts at age 18, the great majority of ENAD's members were youngsters. Their needs were many and far beyond the capabilities of the ENAD to address. Education, health, employment, communication, recreations were either non-existent or minimal. The government provision of these services were not designed to take into consideration the special needs of the deaf.
+		</p>
+		<div class="bordered pull-left tiny">
+			<img src="{{ "/assets/images/Going-to-Assosa-26-Aug-2005.png" | prepend: site.baseurl_root }}"
+			alt="Negussie, Etetu and Emmawayish going to Assosa on 26 August 2005. They had to finish their drive in a truck after the public bus they were in broke down at Mendi."
+			class="img-responsive center-block" />
+			<div class="caption text-center">
+				<p>
+					Negussie, Etetu and Emmawayish going to Assosa on 26 August 2005<br/>(20 Nehasie 1997 E.C.). They had to finish their drive in a truck after the<br/>
+					public bus they were in broke down at Mendi. According to the officials<br/>
+					of the region, no one had visited them before to talk about the <br/>deaf. The group from the ENAD was the first to come to Assosa.<br/>
+					(Photo credit: Tekle Derso)
+				</p>
+			</div>
+		</div>
+		<div class="bordered pull-right tiny">
+			<img src="{{ "/assets/images/Notice-Assosa-ENAD-train-26-Aug-2005.png" | prepend: site.baseurl_root }}"
+			alt="A notice at the Bus Terminal in Assosa announcing a training by the ENAD on 26 August 2005"
+			class="img-responsive center-block" />
+			<div class="caption text-center">
+				<p>
+					A notice at the Bus Terminal in Assosa announcing a training <br /> by the ENAD on 26 August 2005 <br/>
+					(Photo credit: Tekle Derso)
+				</p>
+			</div>
+		</div>
+		<p>
+			The role of the ENAD has been one of raising and high lighting the special needs of the deaf. Where ever it is with in its capacity, it has been working towards solving some of the problems by itself or in cooperation with relevant governmental and non-governmental entities.
+		</p>
+	</div>
+	<h2 id="education">Education of the Deaf</h2>
+	<div>
+		<p>
+			The ENAD has had a close working relationship with the Ministry of Education from its earliest days. The Ministry of Education must be commended for accepting and disseminating officially ENAD's creation namely The Ethiopian Sign Language Finger Spelling (Alphabet). Following that, the ENAD along with the Ministry of Education, the Alpha School for the Deaf and the Makanissa School for the Deaf successfully prepared the first book on Ethiopian Sign Language, which the Ministry of Education published.
+		</p>
+		<p>
+			the ENAD in cooperation with the Finnish Association of the Deaf (FAD) was able to train the first batch of highly capable sign language interpreters. At the end of the training, the ENAD with the support of ILO and UNESCO was able to implement a project where by some of the trained interpreters were placed at high schools where deaf students were included. At the end of the project, the ENAD requested and  the the Addis Ababa Bureau of Education accepted to adopt the project making the sign language interpreting services a permanent fixture.
+		</p>
+		<div class="bordered pull-left tiny">
+			<a href="{{ "/assets/images/AAU-Prof-Andrias-24-Apr-2004-From-AT.png" | prepend: site.baseurl_root }}">
+			<!-- a href="{{ site.baseurl }}/enlargedphoto/" -->
+			  <img src="{{ "/assets/images/AAU-Prof-Andrias-24-Apr-2004-From-AT-small.png" | prepend: site.baseurl_root }}"
+			  alt="Prof. Andrias, former president of the Addis Ababa and some other guests during a certificate presentation to trainees who participated in a basic course in Ethiopian Sign Langau on 24 April 2004 (16 Miazia 1996 E.C.)"
+			  class="img-responsive center-block" id="profAndrias">
+			  <!-- onclick="storeImageLocation('profAndrias')" / -->
+			</a>
+			<div class="caption text-center">
+				<p>
+					Prof. Andrias Eshete, former president of the Addis Ababa University<br/>and other guests at certificate handing ceremony<br/>
+					to trainees who participated in a basic course <br/>
+					in Ethiopian Sign Language on 24 April 2004 (16 Miazia 1996 E.C.).<br/>
+					(Photo credit: Abebe Tamrat. Click on photo for a bigger image)
+				</p>
+			</div>
+		</div>
+		<div class="bordered pull-left tiny">
+			<a href="{{ "/assets/images/AAU-Prof-Andrias-24-Apr-2004-handing-certificate-From-AA.png" | prepend: site.baseurl_root }}">
+			<!-- a href="{{ site.baseurl }}/enlargedphoto/" -->
+			  <img src="{{ "/assets/images/AAU-Prof-Andrias-24-Apr-2004-handing-certificate-From-AA-small.png" | prepend: site.baseurl_root }}"
+			  alt="Prof. Andrias, former president of the Addis Ababa during a certificate presentation to trainees who participated in a basic course in Ethiopian Sign Langau on 24 April 2004"
+			  class="img-responsive center-block" id="profAndrias1">
+			  <!-- onclick="storeImageLocation('profAndrias1')" / -->
+			</a>
+			<div class="caption text-center">
+				<p>
+					Prof. Andrias Eshete, former president of the Addis Ababa University<br/>handed out certificates to trainees who participated in a basic course <br/>
+					in Ethiopian Sign Language on 24 April 2004.<br/>
+					Also watching are (left to right) Mr. Wassihun Sintayehu<br/>
+					former Sign Language Officer, Mr. Alemayehu Teferi <br/>
+					former president of the ENAD, Dr. Beniam, _______ <br/>
+					and Mr. Amare Ayalew Sign Language interpreter<br/> (standing far at right)<br/>
+					(Photo credit: Amare Ayalew. Click on photo for a bigger image)
+				</p>
+			</div>
+		</div>
+		<div class="bordered pull-right tiny">
+			<a href="{{ "/assets/images/AAU-EthSL-training-24-Apr-2004.png" | prepend: site.baseurl_root }}">
+			<!-- a href="{{ site.baseurl }}/enlargedphoto/" -->
+			  <img src="{{ "/assets/images/AAU-EthSL-training-24-Apr-2004-small.png" | prepend: site.baseurl_root }}"
+			  alt="Certificate of participation in basic course in Ethiopian Sign Language on 24 April 2004"
+			  class="img-responsive center-block" id="certEthSL">
+			  <!-- onclick="storeImageLocation('certEthSL')" / -->
+		  </a>
+			<div class="caption text-center">
+				<p>
+					Certificate of participation in basic course <br/>in Ethiopian Sign Language on 24 April 2004 <br/>(Photo credit: Tekle Derso. <br/>Click on photo for a bigger image)
+				</p>
+			</div>
+		</div>
+		<p>
+			The ENAD also introduced sign language training to the Addis Ababa University. This training created the necessary awareness and placed the ground work for the start of the provision of sign language course in the university. Now, the ENAD is gratified to note that Addis Ababa University has become one of the centers of higher learning in special education, Sign Language and deaf culture in the country. Other universities are also following suit.
+		</p>
+	</div>
+	<h2 id="health">Health</h2>
+	<div>
+		<p>
+			In Ethiopia, the very needy are provided medical examination and treatment for free. But, they need to prove their need and this is usually done by going to their local dwellers associations (during the Derg) or to the local social courts (now, during the EPRDF government). This process has problems for the deaf due to communication barriers. During the Derg regime, the ENAD had lobbied and obtained a government decision for its members who are in need to be provided with free medical help. It was possible for members to get the service by just taking a letter from the ENAD to the relevant health center or hospital.
+		</p>
+		<div class="bordered pull-left tiny">
+			  <img src="{{ "/assets/images/Jimma-branch-18-Tahsas-1998ec-HAPCO.png" | prepend: site.baseurl_root }}"
+			  alt="HAPCO's financial support enabled the ENAD to buy office furniture to its branches. Jimma branch's furniture being loaded to a pickup truck on Tahsas 18, 1998 (27 December 2005)"
+			  class="img-responsive center-block" />
+			<div class="caption text-center">
+				<p>
+					HAPCO's financial support enabled the ENAD to buy office <br/>furniture to its branches. Jimma branch's furniture being<br/> loaded to a pickup truck on 27 December 2005 (Tahsas 18, 1998 E.C.)
+					<br/>(Photo credit: ENAD)
+				</p>
+			</div>
+		</div>
+		<div class="bordered pull-right tiny">
+			  <img src="{{ "/assets/images/Adama-branch-HAPCO-small.png" | prepend: site.baseurl_root }}"
+			  alt="HAPCO's financial support enabled the ENAD to buy office TV sets its branches. Adama branch received its set from the ENAD chair person"
+			  class="img-responsive center-block" />
+			<div class="caption text-center">
+				<p>
+					HAPCO's financial support enabled the ENAD to buy TV<br/> 
+					sets to its branches. Adama branch received its set from the ENAD<br/>chair person Mr. Alemayehu Teferi in 2005<br />(Photo credit: ENAD)
+				</p>
+			</div>
+		</div>
+		<p>
+			The advent of the HIV/AIDs pandemic brought new needs and challenges. With the assistance of the Federal and Addis Ababa Region HIV/AIDs Prevention and Control Offices (HAPCO), the ENAD has been providing awareness training to the deaf in Addis Ababa and at regional branches. After the basic training is provided, for a continued awareness and behavioral changes to take root, peer to peer counseling is necessary. For this to happen, the deaf need suitable places of assembly. With funding from HAPCO, the ENAD was able to upgrade the capacities of its regional branch offices by equipping them with necessary furniture and TV sets.
+		</p>
+		<p>
+			One of the approaches to fight HIV/AIDs was voluntary counseling and testing services. This process is mostly built on trust. In order to build trust, there needs to be clear communication. But, how to do it with the deaf? Bringing in an interpreter would create complications.
+		</p>
+		<p>
+			With the assistance of the Addis Ababa Region HIV/AIDs Prevention and Control Office (HAPCO), it was possible to train some deaf as counselors. At the end of their training, they were placed at selected hospitals. At the end of the project, it became clear they deaf counselors were going to be dismissed. But, the ENAD approached the Ministry of Health about the matter and it was decided for the Addis Ababa Region Health Bureau to employ the deaf counselors on a permanent basis so that the service may continue.
+		</p>
+	</div>
+	<h2 id="social">Social</h2>
+	<div>
+		<p>
+			The Ministry of Labor and Social Affairs has actively supported the activities of the ENAD. The former Rehabilitation Agency for the Disabled supported the work of the ENAD and the agency covered the salaries of the ENAD staff for many years during the Derge Regime.
+		</p>
+		<div class="bordered pull-left tiny">
+			<a href="{{ "/assets/images/IWD-28Meskerem1986-guests.png" | prepend: site.baseurl_root }}">
+			<!--a href="{{ site.baseurl }}/enlargedphoto/" -->
+			  <img src="{{ "/assets/images/IWD-28Meskerem1986-guests-small.png" | prepend: site.baseurl_root }}"
+			  alt="Officials of the Rehabilitation Department of the Ministry of Labour and Social Affairs at the International Week of the Deaf celebration during Meskerem 28 to Tikimt 4, 1986 (8 to 14 October 1993)"
+			  class="img-responsive center-block" id="iwd1993">
+			  <!-- onclick="storeImageLocation('iwd1993')"/ -->
+			</a>
+			<div class="caption text-center">
+				<p>
+					Officials of the Rehabilitation Department of the <br/>
+					Ministry of Labour and Social Affairs at the <br/>
+					International Week of the Deaf celebration during <br/>
+					8 to 14 October 1993 (Meskerem 28 to Tikimt 4, 1986 E.C.)<br/>
+					(Photo credit: ENAD. Click on photo for a bigger image)
+				</p>
+			</div>
+		</div>
+		<p>
+			The practice of supporting the ENAD has continued with enhanced generosity. The current government, through the Ministry of Labor and social Affairs, has been and still is supporting the ENAD. The Rehabilitation Department of the Ministry is actively involved in all the activities of the ENAD.
+		</p>
+		<p>
+			During this time, the ENAD was able to secure job placement for some deaf members in some organizations and manufacturing establishments. Some of the establishments that accepted some of our members as employees were The Ethiopian Tourist Trading Corporation, St. George Beer Factory, Awash Winery, Addis Ababa Alcohol and Beverages Factory, Addis Tire Factory, Commercial Bank of Ethiopia, Ras Hotels Enterprise. 
+		</p>
+	</div>
+	<h2 id="info-com">Information and Communication</h2>
+	<div>
+		<div class="bordered pull-right tiny">
+			<a href="{{ "/assets/images/Deaf-use-sms-to-communicate.png" | prepend: site.baseurl_root }}">
+			<!-- a href="{{ site.baseurl }}/enlargedphoto/" -->
+			  <img src="{{ "/assets/images/Deaf-use-sms-to-communicate-small.png" | prepend: site.baseurl_root }}"
+			  alt="Deaf persons use SMS to communicate with each other and with hearing persons"
+			  class="img-responsive center-block" id="deafUseSMS">
+			  <!-- onclick="storeImageLocation('deafUseSMS')" / -->
+			</a>
+			<div class="caption text-center">
+				<p>
+					SMS is the only means of communication used by the<br/>
+					deaf in Ethiopia. They use it to communicate with<br/>
+					each other and with hearing persons.<br/>
+					(Click for a bigger image)
+				</p>
+			</div>
+		</div>
+		<p>
+			The information and communication needs of the deaf could not be said to have been fully addressed even now. All the usual channels of information, namely radio, television, telephone, printed media and word of mouth, were out of reach of the deaf. Television broadcasting has made some efforts at addressing the special needs of the deaf. But if the deaf are to derive full benefits, news should be interpreted live while it is being transmitted. The introduction of mobile phones has also made it possible for the deaf to communicate using short messaging service (SMS). But, this requires literacy, which all the deaf do not possess at present. A better approach would be to use multi-media messaging (MMS). But, this is not possible for two reasons. First, all the deaf do not have access to multi-media capable mobile hand sets. Second, the cost of communicating using multi-media is prohibitive at the moment.
+		</p>
+		<p>
+			The ENAD has been and still is providing sign language interpreting services to its members and other deaf who requires the service. The services is provided mostly at the request of the members. However, there have also been many occasions where the service was requested by the courts, police stations and the Documents Authentication and Registration Agency. As the number of highly qualified interpreters that are available is limited, there is still a big problem meeting the demand.
+		</p>
+		<p>
+			Due to problems of communication, it also happens from time to time that there arise misunderstandings between the deaf and their families. In such situations, the ENAD has also been called to act as a mediator and facilitator and has helped in resolving problems.
+		</p>
+	</div>
+	<h2 id="recreation">Recreation</h2>
+	<div>
+		<p>
+			Recreation facilities specially geared to the deaf could be said to be non-existent. The publicly available recreation facilities - theatre, movie houses, television programs, football and other games - are not deaf friendly. They are produced with the hearing only in mind. 
+		</p>
+		<p>
+			One area where the ENAD has played a big role is in facilitating participation and competition of its members in sports. This has been going on since its establishment in the 1970s. For more information on the activities of the ENAD and its members in sports, click <a href="{{ "/sport/" | prepend: site.baseurl_root }}">here</a>.
+		</p>
+	</div>
+</div>
+

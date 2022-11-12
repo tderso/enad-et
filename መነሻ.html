@@ -1,0 +1,133 @@
+---
+<!-- layout: default -->
+title: መነሻ ገፅ
+lang: am
+ref: home
+---
+
+
+<!-- div class="row col-md-12 col-lg-12 col-xl-12" -->
+<div class="row">
+  <div class="home">
+	<div class="full-hero hero-home">
+		<div class="hero-content">
+			<!-- h1>የኢትዮጵያ መስማት የተሳናቸው ብሔራዊ ማኅበር (ኢመየብማ)</h1 -->
+		</div>
+	</div>
+
+	<div class="home-callout">
+		<h1 class="callout-title">የኢትዮጵያ መስማት የተሳናቸው ብሔራዊ ማኅበር (ኢመየብማ)</h1>
+		<div class="callout-copy">
+			<p>
+    		የኢትዮጵያ መስማት የተሳናቸው ብሔራዊ ማህበር (መስከረም 1963) ተቋቋመ። የተቋቋመውም በመስማት የተሳናቸው በራሳቸው እና በጓደኞቻቸው ድጋፍ ነው።
+			</p> 
+			<p>
+			  {% for branch in site.branchoffices %}
+    		  አሁን ማኅበሩ በመላ በሀገሪቱ ውስጥ {{ branch.number_of_branches }} ቅርንጫፎች አሉት። ማኅበሩ ለመስማት ለተሳናቸው እድገት ላበረክተው አስተዋጽኦ በኢትዮጵያ መንግሥት እውቅናና ድጋፍ አግኝቷል። ማኅበሩ ለመስማት ለተሳናቸው ትምህርት መስፋፋት ላደረገው አስተዋፅኦ በ2008 ዓ.ም. የፌደራል ትምህርት ሚኒስቴር የምስክር ወረቀት በማበርከት እውቅና ሰጥቶታል።
+			  {% endfor %}
+    	</p>
+
+  		<h3>ማኀበበሩ ከመቋቋሙ በፊት የነበረው ሁኔታ</h3>
+  		<p>
+    		ኢመየብማ ከመቋቋሙ በፊት መስማት የተሳናቸው ብዙ ችግሮች ነበሩባቸው። ለዓይነ ሥውራን በመንግስት ለሚካሄዱ አዳሪ ትምህርት ቤቶች የነበሩ ቢሆኑም፣ ለመስማት ለተሳናቸው ግን በመንገሥት የሚተዳደር ምንም ዓይነት ትምህርት ቤት አልነበረም። ቢሆንም በአዲስ አበባ ውስጥ መስማት ለተሳናቸው ሁለት ትምህርት ቤቶች እና በአሁኑ ጊዜ የኤርትራ አካል በሆነው ከረን ከተማ ደግሞ አንድ ትምህርት ቤት ይገኙ ነበር። እነዚህ ሁሉ በሃይማኖታዊ ሚስዮኖች የሚተዳረሩ ነበሩ። ሕብረተሰቡ መስማት የተሳናቸውን መማር እንደማይቻል አድርጎ ያያቸው ነበር። መስማት የተሳነው ሰው በአማርኛ ቋንቋ "ደንቆሮ" ተብሎ ይጠራ ነበር። ይህም ማለት ትምህርት የማይገባው ደደብ ወይም ምንም የማያውቅ የሚል ትርጉም ነበረው። ለሥራ ስምሪት እና ሌሎች ማህበራዊ እንቅስቃሴዎች ዕድሎችም አልነበሩም።
+			</p>
+			<p>
+				ኢመየብማ ወደ ሕልውና የመጣው እንዲህ ባለ ሁኔታ ውስጥ ነበር። መስማት የተሳናቸው ሰዎች ለመብቶቻቸው ሊከራከሩ የሚችሉበት አንድ ማኅበር ያስፈልግ ነበር።
+			</p>
+		</div>
+	</div>
+
+	<div class="home-section">
+		<h4>በጣም የቅርብ ጊዜ ልጥፍ</h4>
+		<div class="blog-posts">
+			<header class="post-header">
+				{% assign posts = site.posts | where: "lang", page.lang | sort: 'date' | reverse %}
+				<h2>
+					<a href="{{ posts[0].url | prepend: site.baseurl }}">
+				  	{{ posts[0].title }}
+					</a>
+				</h2>
+				<div class="post-byline">
+					<img src="{{ posts[0].gravatar }}" />
+					<a href="{{ posts[0].authorTwitter }}" 
+					class="social-link"><i class="fa fa-twitter"></i></a>
+					{% assign author = site.authors | where: 'short_name', posts[0].author | first %}
+					በ: {{ author.name }} {% comment %}{{ posts[0].postAuthor }}{% endcomment %}
+					<span> - {% include convToEthDate.html %}
+						{% comment %}{{ posts[0].date | date: '%B %d, %Y' }}{% endcomment %}
+					</span>
+				</div>
+			</header>
+			<div class="posts-image"
+			style="background-image:url({{ posts[0].postHero }}">
+			</div>
+			{{ posts[0].excerpt }}
+		</div>
+	</div>
+
+	<div class="home-section">
+		<h2>ዋና ዋና ተግባራት</h2>
+		<p>
+  		ኢመየብማ የመስማት ተሳናቸው መብቶች የሚያራምዱ እና በአገሪቱ በሁሉም ተግባራት ውስጥ እንዲካፈሉ በሚያደርጉ በርካታ ተግባራት ውስጥ ተሳትፏል፤ አሁንም እየተሳተፈም ይገኛል።
+		</p>
+
+		<div class="bio-wrapper">
+		  <div class="bio-box">
+		  	<div class="thumbnail">
+		  		<img src="{{ site.baseurl }}/assets/images/ethFingerSpelling-part.png" class="img-responsive" />
+		  		<div class="caption">
+		  			<h4>የምልክት ቋንቋ እድገት</h4>
+		  		</div>
+		  	</div>
+				<!-- h3>Sign Language Development</h3 -->
+				<!-- a href="http://twitter.com/mhartl" class="social-link">
+					<i class="fa fa-twitter"></i>
+				</a -->
+				<div class="bio-copy">
+					<p>
+						ሚስዮናውያኖች መስማት የተሳናቸውን ለማስተማር ሲመጡ የመጡባቸው አገራት የምልክት ቋንቋ ስርዓቶችን ይዘው ነበር የመጡት። ከአሜሪካ የመጣው የአሜሪካ የምልክት ቋንቋን ይዘው መጡ። ከኖርዲክ አገሮች የመጡ ሰዎች የፊንላንድ እና የስዊድን ቋንቋ የምልክት ቋንቋዎችን ይዘው መጡ።
+					</p>
+					<p>
+						ነገር ግን ኢትዮጵያ የራሷ ፊደል ያላት አገር ናት። መስማት የተሳናቸው ግን ሆን ብለው ባይሆንም እንኳ የራሳቸውን ፊደል ከመማር ተወግደው ነበር። ለፊደላችን ምንም እንደ አውሮጳውያኑ ፊደል የጣት ምልክት አልነበረውም። የኢመየብማ የመጀመሪያ ተግባር ለሀገራዊቷ ፊደል የእጅ ጣት ምልክት በመፍጠር ላይ ነበር። ይህ ተግባር እውን ሊሆን የቻለው በሶስት መስራች አባላት፣ ማለትም በምናሴ አበራ, በተክለያይማኖት ደርሶ እና በኃይሉ የሱነህ ነበር። ... <a href="{{ base }}/ethslam/">ይቀጥላል</a>
+					</p>
+				</div>
+			</div>
+			<div class="bio-box">
+				<div class="thumbnail">
+					<img src="{{ site.baseurl }}/assets/images/sport-Addis-Stadium-2003-IMG_9098.png" class="img-responsive" />
+					<div class="caption">
+						<h4>ስፖርታዊ እንቅስቃሴዎች</h4>
+					</div>
+				</div>
+				<!-- h3>Sports</h3 -->
+				<!-- a href="https://twitter.com/leedonahoe" class="social-link">
+					<i class="fa fa-twitter"></i>
+				</a -->
+				<div class="bio-copy">
+					<p>
+						ኢመየብማ ከመቋቋሙ በፊት መስማት የተሳናቸው የስፖርት እንቅስቃሴዎች በትምህርት ቤቶቻቸው ብቻ የተገደቡ ነበሩ። ነገር ግን ማኅበሩ ከተቋቋመ በኋላ የስፖርት እንቅስቃሴዎች በጣም ከፍተኛ ደረጃ ላይ በመድረሱ  መስማት የተሳናቸው ወደ ድሬያዋ እና ጂማ በመሄድ ለመወዳደር የሚችሉበት ደረጃ ላይ ደርሶ ነበር።  ... <a href="{{ site.baseurl }}/sportsam/">ይቀጥላል</a>
+					</p>
+				</div>
+			</div>
+			<div class="bio-box">
+				<div class="thumbnail">
+					<img src="{{ site.baseurl }}/assets/images/preschool-18June2011-IMG_0209.png" class="img-responsive" />
+					<div class="caption">
+						<h4>የሕፃናት መዋያ</h4>
+					</div>
+				</div>
+				<!-- h3>Preschool for Deaf Children</h3 -->
+				<!-- a href="https://twitter.com/nickmerwin" class="social-link">
+					<i class="fa fa-twitter"></i>
+				</a -->
+				<div class="bio-copy">
+					<p>
+						የዓለም አቀፍ የሕፃናት ዓመትን መከበር ተከትሎ ማኅበሩ የመስማት ለተሳናቸው ሕፃናት መዋያ ለማቋቋም እንዲችል የፕሮጄክት ሃሳብ አዘጋጅቶ ለዩኔስኮ የጋራ ድርጊት መርሃ ግብር አቅርቦ ነበር። የፕሮጄክት ሃሳቡ ተቀባይነት በማግኘቱም በዩኔስኮ በተመረጡ ሌሎች ፕሮጄክቶች ጋር በመጽሔት ታትሞ በመላው ዓለም ለሚገጁ የዩኔስኮ ወዳጆች ማኅበራት ተሰራጭቷል። በዚህ ዓይነት የማኅበሩ የሕፃናት መዋያ ትምህርት ቤት ሊወለድ ቻለ። ... <a href="{{ site.baseurl }}/preschoolam/">ይቀጥላል</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</div>

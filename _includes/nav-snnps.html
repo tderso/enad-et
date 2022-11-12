@@ -1,0 +1,15 @@
+{% assign regPageName = page.url | split: "." %}
+{% assign reg = regPageName[0] | remove: "/" %}
+<!--p class="side-menu-list"><strong>Branches in {{ reg | capitalize}}:</strong></p>
+<hr class="side-menu-list" / -->
+<ul class="side-menu-list">
+    {% for br in site.snnps[page.lang] %}
+      {% if br[1].url == blank or br[1].url == nil %}
+        <li>{{ br[1].name }}</li>
+      {% else %}
+        <li><a href="{{ br[1].url | prepend: site.baseurl_root }}">{{ br[1].name}}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  

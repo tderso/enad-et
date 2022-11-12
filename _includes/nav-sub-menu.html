@@ -1,0 +1,19 @@
+<div class="row shadow" style="display: flex; flex-direction: column; background-color: blue; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;">
+	{% for subm in site.subMenu[page.lang] %}
+          {% assign pageURLArr = page.url | split: '.' %}
+          {% assign urlSize = pageURLArr[0] | size %}
+          {% if urlSize > 1 %}
+            {% assign page_url1 = pageURLArr[0] | append: '/' %}
+            {% assign page_url = page_url1 | url_decode %}
+          {% else %}
+            {% assign page_url = pageURLArr[0] %}
+          {% endif %}
+          {% if subm[1].url == page_url %}
+	          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 active">
+          {% else %}
+	          <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+	        {% endif %}
+              <a href="{{ subm[1].url }}">{{ subm[1].name }}</a>
+	          </div>
+	{% endfor %}
+</div>

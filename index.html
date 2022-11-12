@@ -1,0 +1,138 @@
+---
+<!-- layout: default -->
+title: Home
+lang: en
+ref: home
+---
+
+<div class="row">
+	<div class="home">
+	  <div class="full-hero hero-home">
+		<div class="hero-content">
+			<h1>Ethiopian National Association of the Deaf (ENAD)</h1>
+		</div>
+	  </div>
+	  <div class="home-callout">
+		<h1 class="callout-title">Ethiopian National Association of the Deaf (ENAD)</h1>
+		<div class="callout-copy">
+			<p>
+    		The Ethiopian National Association of the Deaf (ENAD) was established in September 1970. 
+			It was established by the deaf themselves with the support of some of their friends.
+			</p> 
+			<p>
+			  {% for branch in site.branchoffices %}
+    		  Now, the ENAD has {{ branch.number_of_branches }} branches all over the country. 
+			  Its contributions  to the advancement of the deaf is acknowledged and supported by 
+			  the government of Ethiopia. Among others, the Federal Ministry of Education awarded 
+			  it a trophy and certificate in 2016 in recognition of its contribution in the 
+			  advancement of the education of the deaf.
+			  {% endfor %}
+    	</p>
+  		<h3>Background</h3>
+  		<p>
+    		Before the establishment of the ENAD, the deaf were faced with many problems. 
+			While there existed a boarding school for the blind operated by the government, 
+			no government schools of any type were in existence for the deaf. There were, 
+			however two schools for the deaf in Addis Ababa and another one in Keren, 
+			in present day Eritrea, all of which were operated by religious missionaries. 
+			The society held the view that the deaf could not be educated. A deaf person 
+			was referred at as "Denquero" in the Amharic language, which means some one 
+			who could not be educated or an ignorant being. Opportunities for employment 
+			and other social activities were also none existent.
+			</p>
+			<p>
+				It was under such a situation that the ENAD came into being. The deaf needed 
+				an association through which they could advocate for their rights.
+			</p>
+		</div>
+	  </div>
+	  <div class="home-section">
+		<h4>Most recent post</h4>
+		<div class="blog-posts">
+			<header class="post-header">
+				{% assign posts = site.posts | where: "lang", page.lang | sort: 'date' | reverse %}
+				<h2>
+					<a href="{{ posts[0].url | prepend: site.baseurl }}">
+				  	{{ posts[0].title }}
+					</a>
+				</h2>
+				<div class="post-byline">
+					<img src="{{ posts[0].gravatar }}" />
+					<a href="{{ posts[0].authorTwitter }}" 
+					class="social-link"><i class="fa fa-twitter"></i></a>
+					{% assign author = site.authors | where: 'short_name', posts[0].author | first %}
+					by: {{ author.name }} 
+					<span> - {{ posts[0].date | date: '%B %d, %Y' }}</span>
+				</div>
+			</header>
+			<div class="posts-image"
+			style="background-image:url({{ posts[0].postHero }}">
+			</div>
+			{{ posts[0].excerpt }}
+		</div>
+	  </div>
+	  <div class="home-section">
+		<h2>MAIN ACTIVITIES</h2>
+		<p>
+  		The ENAD has been, and still is, engaged in many activities that advance the rights of the deaf and insure their inclusion in all activities of the country.
+		</p>
+		<div class="bio-wrapper">
+		  <div class="bio-box">
+		  	<div class="thumbnail">
+		  		<img src="{{ site.baseurl }}/assets/images/ethFingerSpelling-part.png" class="img-responsive" />
+		  		<div class="caption">
+		  			<h4>Sign Langiage Development</h4>
+		  		</div>
+		  	</div>
+				<!-- h3>Sign Language Development</h3 -->
+				<!-- a href="http://twitter.com/mhartl" class="social-link">
+					<i class="fa fa-twitter"></i>
+				</a -->
+				<div class="bio-copy">
+					<p>
+						The religious missionaries had brought sign language systems from their own respective countries. Those from America brought American Sign Language. Those from the Nordic countries brought Finnish and Swedish sign languages.
+					</p>
+					<p>
+						But, Ethiopia is a country that has its own alphabet. The deaf were being excluded from learning their own alphabet although not intentionally. No manual alphabet existed for it. ENAD's first action was creating a manual alphabet for the national alphabet. This was made possible by three of its founding members, namely Minasse Abera, Teklehaimanot Derso and Hailu Yesuneh. ... <a href="{{ "/ethsl/" | prepend: site.baseurl }}">More</a>
+					</p>
+				</div>
+			</div>
+			<div class="bio-box">
+				<div class="thumbnail">
+					<img src="{{ site.baseurl }}/assets/images/sport-Addis-Stadium-2003-IMG_9098.png" class="img-responsive" />
+					<div class="caption">
+						<h4>Sportive Activities</h4>
+					</div>
+				</div>
+				<!-- h3>Sports</h3 -->
+				<!-- a href="https://twitter.com/leedonahoe" class="social-link">
+					<i class="fa fa-twitter"></i>
+				</a -->
+				<div class="bio-copy">
+					<p>
+						Before the establishment of the ENAD, sportive activities of the deaf were limited to their schools only. But, following the establishment of the ENAD, sportive activities increased so much that deaf were going as far as Diredawa and Jima to compete. ... <a href="{{ "/sports/" | prepend: site.baseurl }}">More</a>
+					</p>
+				</div>
+			</div>
+			<div class="bio-box">
+				<div class="thumbnail">
+					<img src="{{ site.baseurl_root }}/assets/images/preschool-18June2011-IMG_0209.png"  class="img-responsive" />
+					<div class="caption">
+						<h4>Preschool</h4>
+					</div>
+				</div>
+				<!-- h3>Preschool for Deaf Children</h3 -->
+				<!-- a href="https://twitter.com/nickmerwin" class="social-link">
+					<i class="fa fa-twitter"></i>
+				</a -->
+				<div class="bio-copy">
+					<p>
+						Following the the celebration of the International Year of the Child, the ENAD presented a project proposal for a preschool for deaf children to then UNESCO Cooperative Action Program. The ENAD proposal was accepted and included in the UNESCO list projects that were selected for considerations for support by friends of the UNESCO all over the world. Thus the ENAD Co-Action Preschool for Deaf Children was born. ... <a href="{{ "/preschool/" | prepend: site.baseurl }}">More</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	  </div>
+  </div>
+</div>
+  

@@ -1,0 +1,47 @@
+
+    <div id="myCarousel" class="carousel slide center-block" data-ride="carousel">
+        {% comment %}
+            {% assign jCount = 0 %}
+            {% assign ps = site.data.enadImages.images[page.lang].preschool %}
+        {% endcomment %}
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            {% for image in ps %}       
+                {% if image.active == "yes" %}
+                    <li data-target="#myCarousel" data-slide-to="{{ jCount }}" class="active"></li>
+                {% else %}
+                    <li data-target="#myCarousel" data-slide-to="{{ jCount }}"></li>
+                {% endif %}
+                {% assign jCount = jCount | plus: 1 %}
+            {% endfor %} 
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            {% for image in ps %}
+                {% if image.active == "yes" %}
+                    <div class="item active">
+                {% else %}
+                    <div class="item">
+                {% endif %}
+                    {% if page.img_dir == null %}
+                      <img src="{{ site.baseurl }}/assets/images/{{ image.image }}" alt="{{ image.alt }}" /> 
+                    {% else %}
+                      <img src="{{ site.baseurl }}/assets/images/{{ page.img_dir }}/{{ image.image }}" alt="{{ image.alt }}" /> 
+                    {% endif %}
+                    <div class="carousel-caption">
+                        <p>{{ image.caption }}</p>
+                    </div>
+                </div>
+            {% endfor %} 
+        </div>
+    
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </div>

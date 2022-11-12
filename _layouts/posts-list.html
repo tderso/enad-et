@@ -1,0 +1,21 @@
+---
+layout: page
+---
+
+<!--div class="row" -->
+<div class="grid">
+	{% assign posts_filtered=site.posts | where:"lang", page.lang %}
+	{% for post in posts_filtered %}
+    <!-- div class="col-md-6 col-lg-4 col-xl-3" -->
+	<div>
+		<a href="{{ post.url }}">
+		    <img src="{{ post.postHero | prepend: site.baseurl }}" width="100%" s
+		    tyle="border-top-left-radius: 10px; border-top-right-radius: 10px; "/>
+		</a>
+    	<div style="display:flex; flex-direction: column; ">
+		  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          <p>{{ post.excerpt }}</p>
+        </div>
+    </div>
+	{% endfor %}
+</div>

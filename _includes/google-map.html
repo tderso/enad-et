@@ -1,0 +1,42 @@
+<div class="center-block" id="map-canvas"></div>
+
+  <script>
+    function initialize() {
+      var mapCanvas = document.getElementById('map-canvas');
+      var enadLoc = new google.maps.LatLng (9.045913, 38.755296);
+      var mapOptions = {
+        center: enadLoc,
+        zoom : 17,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+      }
+      var map = new google.maps.Map(mapCanvas,mapOptions);
+
+      var marker = new google.maps.Marker({
+        position:enadLoc,
+        map: map
+      });
+
+      //marker.setMap(map);
+
+      var infowindow = new google.maps.InfoWindow({content:"ENAD Head Office"});
+
+      infowindow.open(map,marker);
+
+      google.maps.event.addListener(marker, 'click', function() {infowindow.openmap,marker;
+      });
+    }
+
+    // google.maps.event.addDomListener(window, 'load', initialize);
+
+    // To load map asynchronously
+          
+    function loadScript () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "http://maps.googleapis.com/maps/api/jsAIzaSyBBbj--6TW43B1tIVK0r9nc3RwAaoMQ5sskey=AIzaSyCqmxDTpKJmNhFBg03FXbskntfVZWHPpr4&sensor=false&callback=initialize";
+      document.body.appendChild(script);
+    }
+
+    window.onload = loadScript;
+  </script>
+  

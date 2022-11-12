@@ -1,0 +1,14 @@
+<ul class="side-menu-list">
+      <li><a href="#education">{{ site.navyouth[page.lang].youtheducation }}</a></li>
+      <li><a href="#social">{{ site.navyouth[page.lang].youthsocial }}</a></li>
+      <li><a href="#info-com">{{ site.navyouth[page.lang].youthinfocom }}</a></li>
+      <li><a href="#recreation">{{ site.navyouth[page.lang].youthrecreation }}</a></li>
+      <li>
+          {% assign sp = site.navyouth[page.lang].youthsport %}
+          {% if sp == "Sport" %}
+            <a href="{{ sp | downcase | prepend: "/" | append: "/" }}">{{ sp }}</a>
+          {% else %}
+            <a href="{{ sp | prepend: "/" | append: "/" }}">{{ sp }}</a>
+          {% endif %}
+        </li>
+  </ul>

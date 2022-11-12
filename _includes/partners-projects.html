@@ -1,0 +1,49 @@
+
+    <p>
+        {{ page.narrative }}
+    </p>
+    {% assign pr = page.ref %}
+    
+    {% for partner in site.data.projects[page.ref][page.lang] %}
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">{{ partner.partner }}</h3>
+            </div>
+          
+          {% if partner.projects %}    
+            <table class="table table-bordered">
+                <thead class="bg-success">
+                    <tr>
+                        <th>{{ page.col1hd }}</th>
+                        <th>{{ page.col2hd }}</th>
+                        <th>{{ page.col3hd }}</th>
+                    </tr>
+                </thead>
+                {% for project in partner.projects %}
+                    <tr>
+                        <td>{{ project.project-title }}</td>
+                        <td>{{ project.proj-year }}</td>
+                        <td>{{ project.output }}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+          {% endif %}    
+        </div>
+      
+    {% endfor %}
+
+    {% if page.ref == "ongoing" %}
+      {% assign posts = site.posts | where: 'lang', page.lang %}
+		  {% for post in posts %}
+		    {% assign date = post.date %}
+		    {% assign dateArr = date | split: " " %}
+		    {% if dateArr[0] == '2021-10-22' %}
+            {% if page.lang == "en" %}
+		      <p>For more information, click <a href="{{ post.url }}">here</a>.</p>
+            {% else %}
+              <p>ለተጨማሪ መረጃ  <a href="{{ post.url }}">ይህንን</a> ማስፈንጠሪያ ይጫኑ።</p> 
+            {% endif %}
+		    {% endif %}
+		  {% endfor %}
+    {% endif %}
+    

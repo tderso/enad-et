@@ -1,0 +1,17 @@
+<nav class="navbar navbar-fixed-top bg-primary">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#enadNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <!-- span class="navbar-toggler-icon">ENAD</span -->
+      </button>
+      <a class="navbar-brand" href="/"><img src="{{ site.baseurl }}/assets/images/ENAD-logo.png" class="mt-n2" height="30" width="30" alt="ENAD" /></a>
+    </div>
+    <div class="collapse navbar-collapse" id="enadNavbar">
+      {% include nav-menu.html %}
+      {% include lang-selector.html %}
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,238 @@
+images:
+  en:
+    preschool:
+    - image: "ENAD-preschool-first-batch-at-old-hall.jpg"
+      alt: "First batch preschoolers at the dilapilated ENAD Hall"
+      caption: "First batch preschoolers"
+      active: "yes"
+
+    - image: "ENAD-preschool-first-batch-doing-eskista.jpg"
+      alt: "First batch preschoolers at the dilapilated ENAD Hall doing the shoulder dance"
+      caption: "First batch preschoolers"
+      active: "no"
+
+    # - image: "preschool-1st-Batch-31Dec2011-IMG_1250.jpg"
+    #  alt: "Some of the grown-up first batch preschoolers on 18 June 2011 at the renovated ENAD Hall"
+    #  caption: "Some of the nfirst batch 18 June 2011"
+    #  active: "no"
+
+    - image: "ENAD-preschool-feeding-time.jpg"
+      alt: "Children at ENAD Co-Action preschool after the preschool moved to its new quarters biought with UNESCO Co-Action funds."
+      caption: "Co-Action preschoolers"
+      active: "no"
+
+    - image: "ENAD-preschool-children.jpg"
+      alt: "ENAD Co-Action prescollers (boys)"
+      caption: "Co-Action prescollers (boys)"
+      active: "no"
+
+    - image: "ENAD-preschool-girls.jpg"
+      alt: "ENAD Co-Action preschoolers (girls)"
+      caption: "Co-Action preschoolers (girls)"
+      active: "no"
+
+    - image: "ENAD-preschool-visit-by-Dutch-officials.jpg"
+      alt: "Dutch visitors at ENAD Co-Action"
+      caption: "Dutch visitors"
+      active: "no"
+
+    - image: "ENAD-preschool-back-side.jpg"
+      alt: "Visitors at ENAD Co-Action"
+      caption: "Visitors"
+      active: "no"
+    
+    iwd_2021:
+    - image: "iwd-2021-IMG_0228.jpg"
+      alt:
+      caption:
+      active: "yes"
+    
+    - image: "iwd-2021-IMG_0229.jpg"
+      alt:
+      caption:
+      active: "no"
+    
+    - image: "iwd-2021-IMG_0230.jpg"
+      alt:
+      caption:
+      active: "no"
+    
+    - image: "iwd-2021-IMG_0231.jpg"
+      alt:
+      caption:
+      active: "no"
+    
+    - image: "iwd-2021-IMG_0232.jpg"
+      alt:
+      caption:
+      active: "no"
+    
+    - image: "iwd-2021-IMG_0233.jpg"
+      alt:
+      caption:
+      active: "no"
+    
+    - image: "iwd-2021-IMG_0234.jpg"
+      alt:
+      caption:
+      active: "no"
+    
+    - image: "iwd-2021-IMG_0235.jpg"
+      alt:
+      caption:
+      active: "no"
+    
+    - image: "iwd-2021-IMG_0236.jpg"
+      alt:
+      caption:
+      active: "no"
+    
+    - image: "iwd-2021-IMG_0237.jpg"
+      alt:
+      caption:
+      active: "no"
+    
+    - image: "iwd-2021-IMG_0238.jpg"
+      alt:
+      caption:
+      active: "no"
+    
+    - image: "iwd-2021-IMG_0239.jpg"
+      alt:
+      caption:
+      active: "no"
+    
+    - image: "iwd-2021-IMG_0240.jpg"
+      alt:
+      caption:
+      active: "no"
+    
+    - image: "iwd-2021-IMG_0241.jpg"
+      alt:
+      caption:
+      active: "no"
+    
+    - image: "iwd-2021-IMG_0242.jpg"
+      alt:
+      caption:
+      active: "no"
+
+  am:
+    preschool:
+    - image: "ENAD-preschool-first-batch-at-old-hall.jpg"
+      alt: "የመጀመሪያዎቹ የሕፃናት መዋያ ተማሪዎች በፈራረሰው የማኅበሩ አዳራሽ ውስጥ"
+      caption: "የመጀመሪያዎቹ ተማሪዎች"
+      active: "yes"
+
+    - image: "ENAD-preschool-first-batch-doing-eskista.jpg"
+      alt: "የመጀመሪያዎቹ የሕፃናት መዋያ ተማሪዎች በፈራረሰው የማኅበሩ አዳራሽ ውስጥ እስክስታ እያወረዱ"
+      caption: "የመጀመሪያዎቹ ተማሪዎች እስክስታ እያወረዱ"
+      active: "no"
+
+    #- image: "preschool-1st-Batch-31Dec2011-IMG_1250.jpg"
+    #  alt: "የሕፃናት ትምህርት ቤት የመጀመሪያ ተማሪዎች ሰኔ 2003 ዓ.ም. በታደሰው የማኅበሩ አዳራሽ ውስጥ"
+    #  caption: "የመጀመሪያዎቹ ተማሪዎች ሰኔ 2003 ዓ.ም. "
+    #  active: "no"
+
+    - image: "ENAD-preschool-feeding-time.jpg"
+      alt: "ሕፃናት በኢመየብማ ኮ-አከአሽን ትምህርት ቤት ውስጥ ትምህርት ቤቱ ከዩኔስኮ ከ-አክሽን በተሰበሰበ ገንዘብ  ወደተገዛው ቤት ከተዛወረ በኋላ"
+      caption: "የኮ-አክሽን ትምህርት ቤት ተማሪዎች"
+      active: "no"
+
+    - image: "ENAD-preschool-children.jpg"
+      alt: "የኢመየብማ ኮ-አከአሽን ተማሪዎች (ወንዶች)"
+      caption: "የኮ-አኮአሽን ወንዶች ተማሪዎች"
+      active: "no"
+
+    - image: "ENAD-preschool-girls.jpg"
+      alt: "የኢመየብማ ኮ-አከአሽን ተማሪዎች (ሴቶች)"
+      caption: "የኮ-አከአሽን ሴቶች ተማሪዎች"
+      active: "no"
+
+    - image: "ENAD-preschool-visit-by-Dutch-officials.jpg"
+      alt: "ከሆላንድ የመጡ እንግዶች የኢመየብማ ከ-አክሽን ትምህርት ቤትን ሲጎበኙ"
+      caption: "ከሆላንድ የመጡ እንግዶች"
+      active: "no"
+
+    - image: "ENAD-preschool-back-side.jpg"
+      alt: "እንግዶች የኢመየብማ ከ-አክሽን ትምህርት ቤትን ሲጎበኙ"
+      caption: "እንግዶች"
+      active: "no"
+
+    iwd_2021:
+    - image: "iwd-2021-IMG_0228.jpg"
+      alt:
+      caption:
+      active: "yes"
+    
+    - image: "iwd-2021-IMG_0229.jpg"
+      alt:
+      caption:
+      active: "no"
+    
+    - image: "iwd-2021-IMG_0230.jpg"
+      alt:
+      caption:
+      active: "no"
+    
+    - image: "iwd-2021-IMG_0231.jpg"
+      alt:
+      caption:
+      active: "no"
+    
+    - image: "iwd-2021-IMG_0232.jpg"
+      alt:
+      caption:
+      active: "no"
+    
+    - image: "iwd-2021-IMG_0233.jpg"
+      alt:
+      caption:
+      active: "no"
+    
+    - image: "iwd-2021-IMG_0234.jpg"
+      alt:
+      caption:
+      active: "no"
+    
+    - image: "iwd-2021-IMG_0235.jpg"
+      alt:
+      caption:
+      active: "no"
+    
+    - image: "iwd-2021-IMG_0236.jpg"
+      alt:
+      caption:
+      active: "no"
+    
+    - image: "iwd-2021-IMG_0237.jpg"
+      alt:
+      caption:
+      active: "no"
+    
+    - image: "iwd-2021-IMG_0238.jpg"
+      alt:
+      caption:
+      active: "no"
+    
+    - image: "iwd-2021-IMG_0239.jpg"
+      alt:
+      caption:
+      active: "no"
+    
+    - image: "iwd-2021-IMG_0240.jpg"
+      alt:
+      caption:
+      active: "no"
+    
+    - image: "iwd-2021-IMG_0241.jpg"
+      alt:
+      caption:
+      active: "no"
+    
+    - image: "iwd-2021-IMG_0242.jpg"
+      alt:
+      caption:
+      active: "no"
+
+

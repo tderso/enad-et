@@ -1,0 +1,54 @@
+      <!-- nav -->
+      <!-- Menu -->
+      <ul class="nav nav-bar">
+      {% for menu in site.t[page.lang] %}
+        {% if menu[1].name == "home" %}
+          <li class="active">
+            <a {% if page.url == menu[1].link %}class="text-danger"{% endif %} href="{{ menu[1].url }}">{{ menu[1].name }}
+            </a>
+          </li>
+        {% else %}
+          <li><a {% if page.url == menu[1].link %}class="text-danger"{% endif %} href="{{ menu[1].url }}">{{ menu[1].name }}</a></li>
+        {% endif %}
+      {% endfor %}
+
+      <!-- Language switcher -->
+      {% assign posts = site.posts | where:"ref", page.ref | sort: 'lang' %}
+        {% for post in posts %}
+          <li>
+          {% if post.lang == "en" %}
+            <a href="{{ post.url }}" class="{{ post.lang }}">English</a>
+          {% else %}
+            <a href="{{ post.url }}" class="{{ post.lang }}">አማርኛ</a>
+          {% endif %}
+          <!-- a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a -->
+          </li>
+        {% endfor %}
+
+        {% assign pages = site.pages | where:"ref", page.ref | sort: 'lang' %}
+        {% for page in pages %}
+          <li>
+            {% if page.lang == "en" %}
+               <a href="{{ page.url }}" class="{{ page.lang }}">English</a>
+            {% else %}
+               <a href="{{ page.url }}" class="{{ page.lang }}">አማርኛ</a>
+            {% endif %}
+             <!-- a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a -->
+          </li>
+        {% endfor %}
+
+        {% assign authors = site.authors | where:"ref", page.ref | sort: 'lang' %}
+        {% for author in authors %}
+          <li>
+            {% if author.lang == "en" %}
+              <a href="{{ author.url }}" class="{{ author.lang }}">English</a>
+            {% else %}
+               <a href="{{ author.url }}" class="{{ author.lang }}">አማርኛ</a>
+            {% endif %}
+            <!-- a href="{{ author.url }}" class="{{ author.lang }}">{{ author.lang }}</a -->
+          </li>
+        {% endfor %}
+        </ul>
+
+
+        <!-- /nav -->

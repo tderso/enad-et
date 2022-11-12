@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+  <head>
+
+    {% include head.html %}
+    
+  </head>
+  <body>
+
+    {% include header.html %}
+    
+    <div class="content-container">
+      {{ content }}
+
+    {% include context-menu.html %}
+    </div>
+
+    {% include footer.html %}
+
+    
+    <!-- jQuery -->
+    <!-- script src="{{ "/assets/js/jquery-1.11.1.min.js" | prepend: site.baseurl_root }}"></script -->
+    <script src="{{ site.baseurl }}/assets/js/jquery-3.4.1/jquery.slim.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <!-- script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.baseurl_root }}"></script -->
+    <script src="{{ site.baseurl }}/assets/css/bootstrap-3.3.4/js/bootstrap.js"></script>
+    
+    <!-- Plugin JavaScript -->
+    <!-- script src="{{ "/assets/js/mq.js" | prepend: site.baseurl_root}}"></script -->
+
+    <script src="{{ "/assets/js/storeimagelocation.js" | prepend: site.baseurl }}"></script>
+  
+    {% comment %}{% include context-menu-js.html %}{% endcomment %}
+  
+  </body>
+</html>

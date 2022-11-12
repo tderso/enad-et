@@ -1,0 +1,24 @@
+<div class="header">
+	<div class="site-logo">
+	  <div class="header-logo">
+		  <a href="/">
+			  <img src="{{ site.baseurl }}/assets/images/ENAD-seal.png" alt="ENAD" />
+		  </a>
+	  </div>
+	</div>
+	<div class="site-name-and-nav">
+		<div class="site-name">
+			{{ site.titles[page.lang].fulltitle }}
+		</div>
+	  <div class="site-nav">
+		  <nav>
+		    <input type="checkbox" id="mobile-menu" class="mobile-menu-check" />
+		    <label for="mobile-menu" class="show-mobile-menu">{{ site.m[page.lang].mobmenu }}</label>
+		    <ul class="header-nav nav-links">
+			    {% include nav-links.html %}
+			    <!-- {# % include lang-selector.html %} -->
+		    </ul>
+	    </nav>
+	  </div>
+	</div>
+</div>

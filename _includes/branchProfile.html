@@ -1,0 +1,41 @@
+{% assign regPageName = page.url | split: "." %}
+{% assign reg = regPageName[0] | remove: "/" %}
+{% assign reg1 = reg | url_decode %}
+{% assign pageLang = page.lang %}
+
+{% for bos in site.branchoffices %}
+    {% for rgs in bos.regions %}
+      {% for branch in rgs.branches %}
+        {% if pageLang == "en" %}
+          {% if branch.url == reg %}
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+      	            <h3 class="panel-title">Number of members in the branch by gender</h3>
+    	        </div>
+    	        <table class="table table-bordered">
+      		        <tr class="bg-success text-success"><th>Gender</th><th>2017</th></tr>
+                  <tr><td>Females members</td><td>{{ branch.members_females }}</td></tr>
+                  <tr><td>Males members</td><td>{{ branch.members_males }}</td></tr>
+                  <tr class="bg-success text-success"><td>Total</td><td>{{ branch.number_of_members }}</td></tr>
+                </table>
+            </div>
+          {% endif %}
+        {% else %}
+          {% if branch.url_am == reg1 %}
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+      	          <h3 class="panel-title">የቅርንጫፉ አባሎች ብዛት በፆታ</h3>
+    	        </div>
+    	        <table class="table table-bordered">
+      		        <tr class="bg-success text-success"><th>ፆታ</th><th>2009</th></tr>
+                    <tr><td>የሴቶች</td><td>{{ branch.members_females }}</td></tr>
+                    <tr><td>የወንዶች</td><td>{{ branch.members_males }}</td></tr>
+                    <tr class="bg-success text-success"><td>ጠቅላላ አባሎች</td><td>{{ branch.number_of_members }}</td></tr>
+                </table>
+            </div>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+{% endfor %}
+

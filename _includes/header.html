@@ -1,0 +1,20 @@
+<header class="header">
+	
+	<nav>
+		<input type="checkbox" id="mobile-menu" class="mobile-menu-check" />
+		<label for="mobile-menu" class="show-mobile-menu">{{ site.m[page.lang].mobmenu }}</label>
+
+		<ul class="header-nav nav-links">
+			{% include nav-links1.html %}
+			<!-- {# % include lang-selector.html %} -->
+		</ul>
+
+	</nav>
+	{% if page.lang == "en" %}
+	<a href="/" class="header-logo">
+	{% else %}
+	<a href="/መነሻ/" class="header-logo">
+	{% endif %}
+		<img src="{{ "/assets/images/ENAD-seal.png" | prepend:site.baseurl }}" alt="ENAD" />
+	</a>
+</header>

@@ -1,0 +1,38 @@
+        {% for subm in site.subMenu[page.lang] %}
+          {% assign pageURLArr = page.url | split: '.' %}
+          {% assign urlSize = pageURLArr[0] | size %}
+          {% if urlSize > 1 %}
+            {% assign page_url1 = pageURLArr[0] | append: '/' %}
+            {% assign page_url = page_url1 | url_decode %}
+          {% else %}
+            {% assign page_url = pageURLArr[0] %}
+          {% endif %}
+          {% if subm[1].url == "/branches/" or subm[1].url == "/ቅርንጫፎች/" 
+             or subm[1].url == "/sections/" or subm[1].url == "/ዘርፎች/" %}
+            {% if subm[1].url == page_url %}
+              <li class="dropdown active">
+                <a class="drop-trigger" href="{{ subm[1].url }}">{{ subm[1].name }}</a>
+            {% else %}
+              <li class="dropdown">
+                <a class="drop-trigger" href="{{ subm[1].url }}">{{ subm[1].name }}</a>
+            {% endif %}
+              <ul class="dropdown-menu shadow">
+                <li>
+                  {% if subm[1].url == "/branches/" or subm[1].url == "/ቅርንጫፎች/" %}
+                    {% include nav-branches.html %}
+                  {% else %}
+                    {% include nav-sections.html %}
+                  {% endif %}
+                </li>
+              </ul>
+            </li>
+          {% else %}
+            {% if subm[1].url == page_url %}
+              <li class="active">
+            {% else %}
+              <li>
+            {% endif %}
+              <a href="{{ subm[1].url }}">{{ subm[1].name }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}

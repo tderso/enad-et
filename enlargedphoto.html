@@ -1,0 +1,42 @@
+---
+<!-- layout: default -->
+title: Photo
+lang: en
+ref: photo
+---
+
+<div class="row center-block">
+
+	<script type="text/javaScript">
+
+		function removeData(dat) {
+		  window.localStorage.removeItem();
+		  //window.sessionStorage.removeItem(dat);
+		}
+
+		window.onload = function() {
+			
+			//var dataImage = localStorage.getItem('imgData');
+			var dataImage = sessionStorage.getItem('imgData');
+			var imgToShow = document.getElementById('theImage');
+			imgToShow.src = dataImage;
+			imgToShow.alt += ": " + dataImage;
+			/*
+			// The following uses Quert string
+			var imgToShow = document.getElementById('theImage');
+			const queryString = window.location.search;
+			var urlParams = new URLSearchParams(queryString);
+			var sbu = urlParams.get('sbu');
+			var imgUrl = urlParams.get('imgUrl');
+			imgToShow.src = sbu + imgUrl;
+			imgToShow.alt += ": " + sbu + imgUrl;
+			//removeData('imgData')
+			console.log(imgUrl);
+			*/
+		}
+
+	</script>
+
+	<img src="" alt="Photo" id="theImage" class="img-responsive">
+	
+</div>

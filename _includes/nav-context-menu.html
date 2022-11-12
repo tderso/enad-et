@@ -1,0 +1,22 @@
+{% for subm in site.subMenu[page.lang] %}
+    {% assign pageURLArr = page.url | split: '.' %}
+    {% assign urlSize = pageURLArr[0] | size %}
+    {% if urlSize > 1 %}
+        {% assign page_url1 = pageURLArr[0] | append: '/' %}
+        {% assign page_url = page_url1 | url_decode %}
+    {% else %}
+        {% assign page_url = pageURLArr[0] %}
+    {% endif %}
+
+    {% if subm[1].url == "/about/" or subm[1].url == "/ስለ-እኛ/" %}
+        {% comment%} {% endcomment %}
+    {% else %}
+        {% if subm[1].url == page_url %}
+            <li class="active">
+        {% else %}
+            <li>
+        {% endif %}
+        <a href="{{ subm[1].url }}">{{ subm[1].name }}</a>
+        </li>
+    {% endif %}
+{% endfor %}

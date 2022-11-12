@@ -1,0 +1,74 @@
+---
+layout: page
+title: ቅርንጫፎች
+lang: am
+ref: branches
+description: የኢመየብማ ቅርንጫፍ ጽሕፈት ቤቶች
+pageHero: /assets/images/ENAD-branches.png
+---
+
+<aside class="post-aside">
+</aside>
+<div class="post-content">
+  <p>
+    {% include mob_nav_branches.html %}
+  </p>
+	<h2>የኢመየብማ ቅርንጫፎች</h2>
+	<div>
+		<p>
+      {% for branch in site.branchoffices %}
+        የኢትዮጵያ መስማት የተሳናቸው ብሔራዊ ማኅበር (ኢመየብማ) በተለያዩ የአገሪቱ አካባቢዎች {{ branch.number_of_branches }} ቅርንጫፍ ጽሕፈት ቤቶች አሉት። ማኅበሩ እነዚህን ቅርንጫፎች በማካተት የተለያዩ ፕሮጄክቶች ተግባራዊ አድርጓል።
+      {% endfor %}
+		</p>
+		<div class="thumbnail pull-left tiny">
+      <a href="{{ "/assets/images/IWD-24Meskerem1991-Adama.png" | prepend: site.baseurl_root }}">
+    	 <img src="{{ "/assets/images/IWD-24Meskerem1991-Adama-small.png" | prepend: site.baseurl_root }}" alt="የ1991 ዓ.ም. ዓለም አቀፍ የመስማት የተሳናቸው ሳምንት አዳማ፣ ኦሮሚያ ውስጥ የእግር ጉዞ በማድረግ ተከብሯል።"
+          class="img-responsive center-block" />
+      </a>
+    	<div class="caption text-center">
+      	<p>
+          የ1991 ዓ.ም. ዓለም አቀፍ የመስማት የተሳናቸው ሳምንት<br />
+           አዳማ፣ ኦሮሚያ ውስጥ የእግር ጉዞ በማድረግ ተከብሯል።<br />
+           <br/>(ፎቶ: ከማኅበሩ ስብስብ፤ ፎቶውን በትልቁ ለማየት ይጫኑት።) 
+      	</p>
+    	</div>
+  	</div>
+		<p>
+      እያንዳንዱ ቅርንጫፍ ጽሕፈት ቤት የሚመራው ሰባት የተመረጡ አባላት ባሉት ኮሚቴ ነው። ኮሚቴውም ቅርንጫፍ ጽሕፈት ቤቱ ባለበት ከተማ ውስጥና በአካባቢው በሚኖሩ መስማት የተሳናቸው አባሎች የተመረጠ ነው። ማኅበሩ ከቅርንጫፍ ኮሚቴዎች ጋር በመተባበር በኤች አይ ቪ / ኤድስ እና ሌሎች የአባለዘር በሽታዎች ላይ ግንዛቤ የማስጨበጥ እና የመከላከል፣ የቤተሰብ ዕቅድ፣ የገቢ ማስገኛ ሥራዎች እና ሌሎች በሰው አቅም ግንባታ ተግባራት ላይ ሥልጠና መስጠቱን ቀጥሏል።
+		</p>
+		<p>
+      በጣም ራቅ ባሉ አካባቢዎች የሚገኙ መስማት የተሳናቸው የራሳቸው ፈጠራ ከሆኑት ምልክቶች ውጭ መደበኛውን የምልክት ቋንቋ የማወቅ ዕድላቸው በጣም ጠባብ በመሆኑ ከሌሎች ጋር ለመግባባት እንዲችሉ ማኅበሩ መሠረታዊ የምልክት ቋንቋ ሥልጠና ይሰጣል። ይህ ሥልጠና ደግሞ በኤች አይ ቪ / ኤድስ እና በሌሎች ጉዳዮች ያተኮሩ ሥልጠናዎች ለመስጠት በር ይከፍታል።
+		</p>
+		<p id="stat-table-top">
+      በእነዚህ ተግባራት የፌዴራል እና የክልል መንግሥታት፣ የክልል እና ንዑሳን ክልላዊ ቢሮዎች አጋርነት እጅግ በጣም ጠቃሚ ነበር። እንዲያውም አንዳንድ ሥልጠናዎች የተካሄዱት የክልሎች የሠራተኛና ማህበራዊ ጉዳይ ቢሮዎች ባቀረቡዋቸው ግብዣዎችና ጥሪዎች ነበሩ።
+		</p>
+		<div class="panel panel-primary">
+  		{% for branchoffice in site.branchoffices %}
+    		<div class="panel-heading">
+      		<h3 class="panel-title">{{ branchoffice.title_am }}</h3>
+    		</div>
+    		<table class="table table-bordered">
+      		<tr>
+        		<th>ክልል</th><th>ቅርንጫፍ ጽሕፈት ቤት</th>
+      		</tr>
+      		{% for region in branchoffice.regions %}
+        		<tr class="bg-success">
+          		<td colspan="2">{{ region.reg_count}}. {{ region.region_am }}</td>
+        		</tr>
+        		{% for branch in region.branches %}
+          		<tr>
+            		<td>&nbsp;</td>
+            		<td>
+                  {% if branch.url_am == blank or branch.url_am == nil %}
+                    {{ branch.branch_count }}. {{ branch.name_am }}
+                  {% else %}
+                    {{ branch.branch_count }}. <a href="{{ branch.url_am | prepend: '/' | prepend: site.baseurl_root }}">{{ branch.name_am }}</a>
+                  {% endif %}
+                </td>
+          		</tr>
+        		{% endfor %}
+      		{% endfor %}
+    		</table>
+  		{% endfor %}
+		</div>
+</div>

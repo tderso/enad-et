@@ -1,0 +1,14 @@
+<div id="custom-menu" class="custom-menu" style="display: none;">
+    <div><button id="menu-close" title="Close">&times;</button></div>
+    <h2>
+    {% if page.lang == "en" %}
+      Additional Pages
+    {% else %}
+      ተጨማሪ ገጾች
+    {% endif %}
+    </h2>
+    <hr>
+    <ul class="menu">
+      {% include nav-context-menu.html %}
+    </ul>
+  </div>

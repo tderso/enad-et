@@ -1,0 +1,94 @@
+
+      {% for menu in site.mainMenu[page.lang] %} 
+
+        {% assign pageUrlArr = page.url | split: '.' %}
+        {% assign urlSize = pageUrlArr[0] | size %}
+        {% if urlSize > 1 %}
+          {% assign page_url1 = pageUrlArr[0] | append: '/' %}
+          {% assign page_url = page_url1 | url_decode %}
+        {% else %}
+          {% assign page_url = pageUrlArr[0] %}
+        {% endif %}
+        {% if menu[1].url == "/about/" or menu[1].url == "/ስለ-እኛ/" %}
+          {% if menu[1].url == page_url %}
+            <li class="dropdown active">
+              <a class="drop-trigger" href="{{ menu[1].url }}">{{ menu[1].name }}</a>
+          {% else %}
+            <li class="dropdown">
+              <a class="drop-trigger" href="{{ menu[1].url }}">{{ menu[1].name }}</a>
+          {% endif %}
+              <ul class="drop-menu">
+                {% include nav-sub-links.html %}
+              </ul>
+            </li>
+        {% elsif menu[1].url == "/projects/" or menu[1].url == "/ዕቅዶች/" %}
+          {% if menu[1].url == page_url %}
+            <li class="dropdown active">
+              <a class="drop-trigger" href="{{ menu[1].url }}">{{ menu[1].name }}</a>
+          {% else %}
+            <li class="dropdown">
+              <a class="drop-trigger" href="{{ menu[1].url }}">{{ menu[1].name }}</a>
+          {% endif %}
+          <ul class="drop-menu">
+            {% include nav-sub-menu-proj.html %}
+          </ul>
+          </li>
+        {% elsif menu[1].url == "/news/" or menu[1].url == "/ዘገባ/"%}
+          {% if menu[1].url == page_url %}
+            <li class="dropdown active">
+              <a class="drop-trigger" href="{{ menu[1].url }}">{{ menu[1].name }}</a>
+          {% else %}
+            <li class="dropdown">
+              <a class="drop-trigger" href="{{ menu[1].url }}">{{ menu[1].name }}</a>
+          {% endif %}
+              <ul class="drop-menu">
+                {% include nav-sub-menu-blog.html %}
+              </ul>
+            </li>
+        {% else %}
+          {% if menu[1].url == page_url %}
+            <li class="active">
+          {% else %}
+            <li>
+          {% endif %}
+              <a href="{{ menu[1].url }}">{{ menu[1].name }}</a>
+            </li>
+        {% endif %}
+      {% endfor %}
+
+      <!-- Language selector -->
+      
+      {% assign posts = site.posts | where:"ref", page.ref | sort: 'lang' %}
+        {% for post in posts %}
+          <li>
+          {% if post.lang == "en" %}
+            <a href="{{ post.url }}" class="active {{ post.lang }}">English</a>
+          {% else %}
+            <a href="{{ post.url }}" class="active {{ post.lang }}">አማርኛ</a>
+          {% endif %}
+          </li>
+        {% endfor %}
+
+        {% assign pages = site.pages | where:"ref", page.ref | sort: 'lang' %}
+        {% for page in pages %}
+          <li>
+            {% if page.lang == "en" %}
+               <a href="{{ page.url }}" class="active {{ page.lang }}">English</a>
+            {% else %}
+               <a href="{{ page.url }}" class="active {{ page.lang }}">አማርኛ</a>
+            {% endif %}
+          </li>
+        {% endfor %}
+
+        {% assign authors = site.authors | where:"ref", page.ref | sort: 'lang' %}
+        {% for author in authors %}
+          <li>
+            {% if author.lang == "en" %}
+              <a href="{{ author.url }}" class="active {{ author.lang }}">English</a>
+            {% else %}
+               <a href="{{ author.url }}" class="active {{ author.lang }}">አማርኛ</a>
+            {% endif %}
+          </li>
+        {% endfor %}
+
+        

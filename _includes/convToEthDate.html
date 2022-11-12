@@ -1,0 +1,269 @@
+{% assign ethMonthNames = "መስከረም,ጥቅምት,ኅዳር,ታኅሣሥ,ጥር,የካቲት,መጋቢት,ሚያዝያ,ግንቦት,ሰኔ,ሐምሌ,ነሐሴ,ጳጉሜን" | split: "," %}
+    
+{% comment %}
+<ul>
+{% for ethm in ethMonthNames %}
+  <li>{{ ethm }}</li>
+{% endfor %}
+</ul>
+{% endcomment %}
+
+
+{% assign page_url = page.url | url_decode %}
+{% assign fname = page_url | split: "." %}
+{% assign fname = fname[0] |split: "/" %}
+{% if fname[1] == "መነሻ" %}
+    {% assign posts = site.posts | where: "lang", page.lang | sort: 'date' | reverse %}
+    {% assign arrPostDateAndTime = posts[0].date | split: " " %}
+    {% assign arrPostDate = arrPostDateAndTime[0] | split: "-" %}
+    {% assign iYr = arrPostDate[0] | plus: 0 %}
+    {% assign iMn = arrPostDate[1] | plus: 0 %}
+    {% assign iDt = arrPostDate[2] | plus: 0 %}
+{% else %}
+    {% assign arr_page_date_and_time = page.date | split: " " %}
+    {% assign arr_page_date = arr_page_date_and_time[0] | split: "-" %}
+    {% assign iYr = arr_page_date[0] | plus: 0 %}
+    {% assign iMn = arr_page_date[1] | plus: 0 %}
+    {% assign iDt = arr_page_date[2] | plus: 0 %}
+{% endif %}
+
+{% comment %}
+  * 
+  * Convert year in gregorean calendar to
+  * year in ethiopian calendar
+  *
+{% endcomment %}
+
+{% assign wengI = iYr | modulo: 4 %}
+
+{% case iMn %}
+    {% when 1, 2, 3, 4, 5, 6, 7, 8 %}
+        {% assign etYr = iYr | minus: 8 %}
+    {% when 9 %}
+        {% case wengI %}
+            {% when 0, 1, 2 %}
+                {% if iDt <= 10 %}
+                    {% assign etYr = iYr | minus: 8 %}
+                {% else %}
+                    {% assign etYr = iYr | minus: 7 %}
+                {% endif %}
+            {% when 3 %}
+                {% if iDt <= 11 %}
+                    {% assign etYr = iYr | minus: 8 %}
+                {% else %}
+                    {% assign etYr = iYr | minus: 7 %}
+                {% endif %}
+        {% endcase %}
+    {% else %}
+        {% assign etYr = iYr | minus: 7 %}
+{% endcase %}
+
+{% comment %}
+*
+* Convert Gregorean month and date to
+* Ethiopian month and date
+*
+{% endcomment %}
+
+{% assign iDtPlus30 = iDt | plus: 30 %}
+
+{% case iMn %}
+    {% when 1 %} {% comment %} January {% endcomment %}
+        {% if wengI == 3 %}
+            {% assign testVal = iDtPlus30 | minus: 9 %}
+            {% if testVal > 30 %}
+                {% assign etDt = testVal | modulo: 30 %}
+                {% assign etMnI = 5 %}
+            {% else %}
+                {% assign etDt = testVal %}
+                {% assign etMnI = 4 %}
+            {% endif %}
+        {% else %}
+            {% assign testVal = iDtPlus30 | minus: 8 %}
+            {% if testVal > 30 %}
+                {% assign etDt = testVal | modulo: 30 %}
+                {% assign etMnI = 5 %}
+            {% else %}
+                {% assign etDt = testVal %}
+                {% assign etMnI = 4 %}
+            {% endif %}
+        {% endif %}
+    {% when 2 %}
+        {% comment %} Fenruary {% endcomment %}
+        {% if wengI == 0 %}
+            {% comment %} During Eth. Leap Year {% endcomment %}
+            
+            {% assign testVal = iDtPlus30 | minus: 8 %}
+            {% if testVal > 30 %}
+                {% assign etDt = testVal | modulo: 30 %}
+                {% assign etMnI = 6 %}
+            {% else %}
+                {% assign etDt = testVal %}
+                {% assign etMnI = 5 %}
+            {% endif %}
+        {% else %}
+            {% comment %} When not an Eth. Leap Year {% endcomment %}
+            
+            {% assign testVal = iDtPlus30 | minus: 7 %}
+            {% if testVal > 30 %}
+                {% assign etDt = testVal | modulo: 30 %}
+                {% assign etMnI = 6 %}
+            {% else %}
+                {% assign etDt = testVal %}
+                {% assign etMnI = 5 %}
+            {% endif %}
+        {% endif %}
+    {% when 3 %}
+        {% assign testVal = iDtPlus30 | minus: 9 %}
+        {% if testVal > 30 %}
+            {% assign etDt = testVal | modulo: 30 %}
+            {% assign etMnI = 7 %}
+        {% else %}
+            {% assign etDt = testVal %}
+            {% assign etMnI = 6 %}
+        {% endif %}
+    {% when 4 %}
+        {% assign testVal = iDtPlus30 | minus: 8 %}
+        {% if testVal > 30 %}
+            {% assign etDt = testVal | modulo: 30 %}
+            {% assign etMnI = 8 %}
+        {% else %}
+            {% assign etDt = testVal %}
+            {% assign etMnI = 7 %}
+        {% endif %}
+    {% when 5 %}
+        {% assign testVal = iDtPlus30 | minus: 8 %}
+        {% if testVal > 30 %}
+            {% assign etDt = testVal | modulo: 30 %}
+            {% assign etMnI = 9 %}
+        {% else %}
+            {% assign etDt = testVal %}
+            {% assign etMnI = 8 %}
+        {% endif %}
+    {% when 6 %}
+        {% assign testVal = iDtPlus30 | minus: 7 %}
+        {% if testVal > 30 %}
+            {% assign etDt = testVal | modulo: 30 %}
+            {% assign etMnI = 10 %}
+        {% else %}
+            {% assign etDt = testVal %}
+            {% assign etMnI = 9 %}
+        {% endif %}
+    {% when 7 %}
+        {% assign testVal = iDtPlus30 | minus: 7 %}
+        {% if testVal > 30 %}
+            {% assign etDt = testVal | modulo: 30 %}
+            {% assign etMnI = 11 %}
+        {% else %}
+            {% assign etDt = testVal %}
+            {% assign etMnI = 10 %}
+        {% endif %}
+    {% when 8 %}
+        {% assign testVal = iDtPlus30 | minus: 6 %}
+        {% if testVal > 30 %}
+            {% assign etDt = testVal | modulo: 30 %}
+            {% assign etMnI = 12 %}
+        {% else %}
+            {% assign etDt = testVal %}
+            {% assign etMnI = 11 %}
+        {% endif %}
+    {% when 9 %}
+        {% assign testVal = iDtPlus30 | minus: 5 %}
+        {% if wengI == 3 %}
+            {% if iDt <= 11 %}
+                {% if testVal > 30 %}
+                    {% assign etDt = testVal | modulo: 30 %}
+                    {% assign etMnI = 13 %}
+                {% else %}
+                    {% assign etDt = testVal %}
+                    {% assign etMnI = 12 %}
+                {% endif %}
+            {% else %}
+                {% assign testVal = iDt | plus: 30 %}
+                {% assign testVal = testVal | minus: 11 %}
+                {% assign etDt = testVal  | modulo: 30 %}
+                {% assign etMnI = 1 %}
+            {% endif %}
+        {% else %}
+            {% if iDt <= 10 %}
+                {% if testVal > 30 %}
+                    {% assign etDt = testVal | modulo: 30 %}
+                    {% assign etMnI = 13 %}
+                {% else %}
+                    {% assign etDt = testVal %}
+                    {% assign etMnI = 12 %}
+                {% endif %}
+            {% else %}
+                {% assign testVal = iDt | plus: 30 %}
+                {% assign testVal = testVal | minus: 10 %}
+                {% assign etDt = testVal | modulo: 30 %}
+                {% assign etMnI = 1 %}
+            {% endif %}
+        {% endif %}
+    {% when 10 %}
+        {%  if wengI == 3 %}
+            {% assign testVal = iDtPlus30 | minus: 11 %}
+            {% if testVal > 30 %}
+                {% assign etDt = testVal | modulo: 30 %}
+                {% assign etMnI = 2 %}
+            {% else %}
+                {% assign etDt = testVal %}
+                {% assign etMnI = 1 %}
+            {% endif %}
+        {% else %}
+            {% assign testVal = iDtPlus30 | minus: 10 %}
+            {% if testVal > 30 %}
+                {% assign etDt = testVal | modulo: 30 %}
+                {% assign etMnI = 2 %}
+            {% else %}
+                {% assign etDt = testVal %}
+                {% assign etMnI = 1 %}
+            {% endif %}
+        {% endif %}
+    {% when 11 %}
+        {%  if wengI == 3 %}
+            {% assign testVal = iDtPlus30 | minus: 10 %}
+            {% if testVal > 30 %}
+                {% assign etDt = testVal | modulo: 30 %}
+                {% assign etMnI = 3 %}
+            {% else %}
+                {% assign etDt = testVal %}
+                {% assign etMnI = 2 %}
+            {% endif %}
+        {% else %}
+            {% assign testVal = iDtPlus30 | minus: 9 %}
+            {% if testVal > 30 %}
+                {% assign etDt = testVal | modulo: 30 %}
+                {% assign etMnI = 3 %}
+            {% else %}
+                {% assign etDt = testVal %}
+                {% assign etMnI = 2 %}
+            {% endif %}
+        {% endif %}
+    {% when 12 %}
+        {%  if wengI == 3 %}
+            {% assign testVal = iDtPlus30 | minus: 10 %}
+            {% if testVal > 30 %}
+                {% assign etDt = testVal | modulo: 30 %}
+                {% assign etMnI = 4 %}
+            {% else %}
+                {% assign etDt = testVal %}
+                {% assign etMnI = 3 %}
+            {% endif %}
+        {% else %}
+            {% assign testVal = iDtPlus30 | minus: 9 %}
+            {% if testVal > 30 %}
+                {% assign etDt = testVal | modulo: 30 %}
+                {% assign etMnI = 4 %}
+            {% else %}
+                {% assign etDt = testVal %}
+                {% assign etMnI = 3 %}
+            {% endif %}
+        {% endif %}
+{% endcase %}
+
+{% assign monthIndex = etMnI | minus: 1 %}
+
+{% assign etMnName = ethMonthNames[monthIndex] %}
+
+{{ etMnName }} {{ etDt }} ቀን {{ etYr }}

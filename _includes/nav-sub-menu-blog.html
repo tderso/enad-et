@@ -1,0 +1,18 @@
+{% for subb in site.blogMenu[page.lang] %}
+          {% assign pageURLArr = page.url | split: '.' %}
+          {% assign urlSize = pageURLArr[0] | size %}
+          {% if urlSize > 1 %}
+            {% assign page_url1 = pageURLArr[0] | append: '/' %}
+            {% assign page_url = page_url1 | url_decode %}
+          {% else %}
+            {% assign page_url = pageURLArr[0] %}
+          {% endif %}
+          {% if subb[1].url == page_url %}
+            <li class="active">
+          {% else %}
+            <li>
+          {% endif %}
+              <a href="{{ subb[1].url }}">{{ subb[1].name }}</a>
+            </li>
+          
+        {% endfor %}

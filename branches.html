@@ -1,0 +1,73 @@
+---
+layout: page
+title: Branches
+lang: en
+ref: branches
+description: Branch offices of the ENAD
+pageHero: /assets/images/ENAD-branches.png
+---
+
+<aside class="post-aside">
+</aside>
+<div class="post-content">
+  <p>
+    {% include mob_nav_branches.html %}
+  </p>
+	<h2>ENAD Branches</h2>
+	<div>
+		<p>
+      {% for branch in site.branchoffices %}
+			  The Ethiopian National Association of the Deaf (ENAD) has {{ branch.number_of_branches }} branch offices at different locations of the country. The ENAD has implemented different projects through the branch offices.
+      {% endfor %}
+		</p>
+		<div class="thumbnail pull-left tiny">
+      <a href="{{ "/assets/images/IWD-24Meskerem1991-Adama.png" | prepend: site.baseurl }}">
+    	 <img src="{{ "/assets/images/IWD-24Meskerem1991-Adama-small.png" | prepend: site.baseurl }}" alt="International Week of the Deaf 1991 E.C."
+          class="img-responsive center-block" />
+      </a>
+    	<div class="caption text-center">
+      	<p>
+        	International Week of the Deaf being observed with a walk<br /> in Adama, Oromia Region in 1991 E.C. (1998 G.C.)<br/><br/>(Photo: From ENAD's archive. Click on photo for a bigger image.) 
+      	</p>
+    	</div>
+  	</div>
+		<p>
+			Each branch office is run by a committee made up of seven elected members. The committee is elected by deaf members who are residents of the cities and towns and their surrounding areas where the branch offices are located. In association with the branch committees, the ENAD has carried out and still continues to carry out training on awareness and prevention of the HIV/AIDs and other sexually transmitted diseases, awareness on family planning, income generating activities and other human capacity building activities.
+		</p>
+		<p>
+			In the most remotest parts of the country, where the deaf do not have access to sign language training except their own local signs, the ENAD has to give basic sign language training and enable the deaf to understand their own deaf culture. Only after this step is taken could other trainings such as training on HIV/AIDs could be provided.
+		</p>
+		<p id="stat-table-top">
+			In such activities, the cooperation of regional and sub-regional bureaus of Labor and Social Affairs of the Federal and regional governments have been most helpful. Some of the trainings were, in fact, initiated at the invitation of the regional bureaus of Labor and Social Affairs.
+		</p>
+		<div class="panel panel-primary">
+  		{% for branchoffice in site.branchoffices %}
+    		<div class="panel-heading">
+      		<h3 class="panel-title">{{ branchoffice.title }}</h3>
+    		</div>
+    		<table class="table table-bordered">
+      		<tr>
+        		<th>Region</th><th>Branch Office</th>
+      		</tr>
+      		{% for region in branchoffice.regions %}
+        		<tr class="bg-success">
+          		<td colspan="2">{{ region.reg_count}}. {{ region.region }}</td>
+        		</tr>
+        		{% for branch in region.branches %}
+          		<tr>
+            		<td>&nbsp;</td>
+            		<td>
+                  {% if branch.url == blank or branch.url == nil %}
+                    {{ branch.branch_count }}. {{ branch.name }}
+                  {% else %}
+                    {{ branch.branch_count }}. <a href="{{ branch.url | prepend: '/' | prepend: site.baseurl_root }}">{{ branch.name }}</a>
+                  {% endif %}
+                </td>
+          		</tr>
+        		{% endfor %}
+      		{% endfor %}
+    		</table>
+  		{% endfor %}
+		</div>
+</div>
+

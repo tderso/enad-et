@@ -1,0 +1,25 @@
+        {% for region in site.regionsMenu[page.lang] %} 
+          {% assign pageURLArr = page.url | split: '.' %}
+          {% assign urlSize = pageURLArr[0] | size %}
+          {% if urlSize > 1 %}
+            {% assign page_url1 = pageURLArr[0] | append: '/' %}
+            {% assign page_url = page_url1 | url_decode %}
+          {% else %}
+            {% assign page_url = pageURLArr[0] %}
+          {% endif %}
+          {% if region[1].url == page_url %}
+            <li class="active">
+              <a href="{{ region[1].url }}">{{ region[1].name }}</a>
+          {% else %}
+            {% if region[1].url == blank or region[1].url == nil %}
+              <li>
+                <!-- a href="#">{{ region[1].name }}</a -->
+                {{ region[1].name }}
+            {% else %}
+              <li>
+                <a href="{{ region[1].url }}">{{ region[1].name }}</a>
+            {% endif %}
+          {% endif %}
+            </li>
+          
+        {% endfor %}

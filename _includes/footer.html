@@ -1,0 +1,61 @@
+<!-- div class="row">
+    <footer>
+        <div class="row pt-5">
+            <div class="col-md-6 text-white">
+                <p>Copyright © 2019 ENAD</p>
+            </div>
+            <div class="col-md-6 text-right">
+                <a href="#">Terms of Use</a> 
+                <span class="text-white-50">|</span> 
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+</div -->
+
+<footer class="footer">
+    <a class="footer-logo" href="{{ "/" | prepend:site.baseurl }}">
+        <img src="{{ "/assets/images/ENAD-logo.png" | prepend:site.baseurl }}" alt="ENAD" />
+    </a>
+    <nav>
+        <ul class="footer-nav nav-links">
+            {% include nav-links.html %}
+        </ul>
+    </nav>
+    <h3>{{ site.titles[page.lang].abrvtitle }} <span>{{ site.titles[page.lang].fulltitle }}</span></h3>
+    <p>
+        <h4>
+            {{ site.copyright[page.lang].nocopying }}
+        </h4>
+    </p>
+
+    <div>
+          <ul>
+            {% for images in site.data.images.images[page.lang].preschool %}
+            {% for f in images %}
+              <li>{{ f.image }}</li>
+              <li>{{ f.alt }}</li>
+              <li>{{ f.caption }}</li>
+              <li>{{ f.active }}</li>
+            {% endfor %}
+            {% endfor %}
+          </ul>
+
+        <!--
+            {% comment %}
+          <p>
+              <ul>
+              {% for member in site.data.enad_members %}
+                <li>{{ member.regnum }}. {{ member.name }} {{ member.fname }}</li>
+              {% endfor %}
+            </ul>
+          </p>
+
+          {% for project in site.data.partners.partners %}
+            <p>{{ project.name }}</p>
+          {% endfor %}
+          {% endcomment %}
+        -->
+    </div>
+
+</footer>

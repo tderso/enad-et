@@ -1,0 +1,77 @@
+{% for ENAD_partner in site.data.projects %}
+  {% for partner in ENAD_partner.partners %}
+    {% if page.title contains "Finnish" %}
+      {% if partner.name contains "Foreign Affairs" %}
+        <h2>Projects Financed by the {{ partner.name }}</h2>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">{{ ENAD_partner.title }}</h3>
+          </div>
+          <table class="table table-bordered">
+            <col width="82%">
+            <col width="18%">
+            <tr>
+              <th>Project</th>
+              <th>Year</th>
+            </tr>
+            {% for project in partner.projects %}
+              {% for donation in project.donations %}
+                <tr>
+                  <td>
+                    {{ project.project_name_am }}<br/>
+                    {{ project.project_name_en }}
+                  </td>
+                  <td>{{ donation.year }}</td>
+                </tr>
+              {% endfor %}
+            {% endfor %}
+          </table>
+        </div>
+      {% endif %}
+    {% else %}
+      {% assign location = '' %}
+      {% if partner.url != "" %}
+        {% assign location = location | append: partner.url %}
+      {% endif %}
+      <!-- h2>{{ partner.name }}</h2 -->
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">{{ ENAD_partner.title }}</h3>
+        </div>
+        <table class="table table-bordered">
+          <col width="20%">
+          <col width="80%">
+          <tr>
+            <th>Name of donor</th>
+            <th>Project</th>
+          </tr>
+          <tr>
+            <td colspan="2" class="bg-success">
+              {% if location != "" %}
+                {% if partner.url contains "www." %}
+                  <a href="{{ partner.url }}">{{ partner.name }}</a>,
+                {% else %}
+                  <a href="{{ base }}/{{ partner.url }}">{{ partner.name }}</a>,
+                {% endif %}
+              {% else %}
+                {{ partner.name }},
+              {% endif %}
+              {{ partner.country }}
+            </td>
+          </tr>
+          {% for project in partner.projects %}
+            {% for donation in project.donations %}
+              <tr>
+                <td>&nbsp;</td>
+                <td>
+                  {{ project.project_name_am }}<br/>
+                  {{ project.project_name_en }}
+                </td>
+              </tr>
+            {% endfor %}
+          {% endfor %}
+        </table>
+      </div>
+    {% endif %}
+  {% endfor %}
+{% endfor %}

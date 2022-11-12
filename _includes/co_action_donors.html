@@ -1,0 +1,67 @@
+    <div class="donor">
+      <div class="panel panel-primary">
+        {% for co_action_donor in site.co_action_donors %}
+          <div class="panel-heading">
+            {% if page.lang == "en" %}
+              <h3 class="panel-title">{{ co_action_donor.title }}</h3>
+            {% elsif page.lang == "am" %}
+              <h3 class="panel-title">{{ co_action_donor.title_am }}</h3>
+            {% endif %}
+          </div>
+          <table class="table table-bordered">
+            <tr>
+              {% if page.lang == "en" %}
+                <th>Name of donor</th>
+                <th>Country</th>
+                <th>Donation Years</th>
+                <th>No. of donations</th>
+              {% elsif page.lang == "am" %}
+                <th>የዕርዳታ ሰጪ ስም</th>
+                <th>አገር</th>
+                <th>ዕርዳታ የተደረጉባቸው ዓመቶች</th>
+                <th>የዕርዳታ ብዛት</th>
+              {% endif %}
+            </tr>
+            {% for origin in co_action_donor.origins %}
+              <!-- tr>
+                <td class="bg-success">{{ origin.origin }} partners</td>
+              </tr -->
+              {% for partner in origin.partners %}
+                <tr>
+                  <td colspan="4" class="bg-success">
+                    {% if site.lang == "en" %}
+                      Project: {{ partner.project }}
+                    {% elsif site.lang == "am" %}
+                      ፕሮጄክት: {{ partner.project_am }}
+                    {% endif %}
+                  </td>
+                </tr>
+                {% for address in partner.addresses %}
+                  <tr>
+                    <td>
+                      {{ address.name }}
+                    </td>
+                    <td>
+                      {{ address.country }}
+                    </td>
+                    <td>
+                      {% assign icount = 0 %}
+                      {% assign strYears = '' %}
+                      {% assign donations = address.donations | sort: 'year' %}
+                      {% for donation in donations %}
+                        {% assign strYears = strYears | append: donation.year %}
+                        {% assign strYears = strYears | append: "," %}
+                        {% assign icount = icount | plus: 1 %}
+                      {% endfor %}
+                      {% assign arrYears = strYears | split: "," | uniq %}
+                      {{ arrYears | join: ", "}}
+                    </td>
+                    <td>{{ icount }}</td>
+                  </tr>
+                {% endfor %}
+              {% endfor %}
+            {% endfor %}
+          </table>
+        {% endfor %}
+      </div>
+    </div>

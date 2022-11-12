@@ -1,0 +1,1740 @@
+- regnum: 1
+  name: Afework
+  name_am: አፈወርቅ 
+  fname: Mengesha
+  fname_am: መንገሻ
+  gfname: Delelu
+  gfname_am: ደለሉ
+  age: 26
+  work: Fine artist at Haile Selassie I University
+  work_am: የሥነ-ጥበብ ባለሙያ
+  vital: 
+  vital_am: 
+- regnum: 2
+  name: Bizuayehu
+  name_am: ብዙአየሁ
+  fname: Tadesse
+  fname_am: ታደሰ
+  gfname: 
+  gfname_am: 
+  age: 26
+  work: Fine artist, Self employed
+  work_am: የሥነ-ጥበብ ባለሙያ
+  vital: 
+  vital_am: 
+- regnum: 3
+  name: Solomon
+  name_am: ሠሎሞን
+  fname: Tadesse
+  fname_am: ታደሰ
+  gfname: 
+  gfname_am: 
+  age: 20
+  work: Fine artist, Teacher at Bole School for the Deaf
+  work_am: የሥነ-ጥበብ ባለሙያ
+  vital: 
+  vital_am: 
+- regnum: 4
+  name: Yohannes
+  name_am: ዮሐንስ
+  fname: Tsegaye
+  fname_am: ፀጋዬ
+  gfname: 
+  gfname_am: 
+  age: 24
+  work: Fine artist, Self employed
+  work_am: የሥነ-ጥበብ ባለሙያ
+  vital: 
+  vital_am: 
+- regnum: 5
+  name: Tesfaye
+  name_am: ተስፋዬ
+  fname: Asnake
+  fname_am: አስናቀ
+  gfname: 
+  gfname_am: 
+  age: 24
+  work: Technician
+  work_am: ቴክኒሺያን
+  vital: 
+  vital_am: 
+- regnum: 6
+  name: Tesfaye
+  name_am: ተስፋዬ
+  fname: Bantiwalu
+  fname_am: ባንቲዋሉ
+  gfname: 
+  gfname_am: 
+  age: 33
+  work: Gold smith
+  work_am: የወርቅ ሥራ ባለሙያ
+  vital: Deceased
+  vital_am: ነብስ ይማር
+- regnum: 7
+  name: Hailu
+  name_am: ኃይሉ
+  fname: Yesuneh
+  fname_am: የሱነህ
+  gfname: 
+  gfname_am: 
+  age: 22
+  work: Teacher
+  work_am: መምህር
+  vital: 
+  vital_am: 
+- regnum: 8
+  name: Se'id
+  name_am: ሰዒድ
+  fname: Atta
+  fname_am: አጣ
+  gfname: 
+  gfname_am: 
+  age: 26
+  work: Tailor
+  work_am: ልብስ ሰፊ
+  vital: 
+  vital_am: 
+- regnum: 9
+  name: Tilahun
+  name_am: ጥላሁን
+  fname: Ferede
+  fname_am: ፈረደ
+  gfname: 
+  gfname_am: 
+  age: 33
+  work: Tailor at Nubar Donikian
+  work_am: ኑባር ዶኒክያን ድርጅት ውስጥ ልብስ ሰፊ
+  vital: Deceased
+  vital_am: ነብስ ይማር
+- regnum: 10
+  name: Getahun
+  name_am: ጌታሁን
+  fname: Kebede
+  fname_am: ከበደ
+  gfname: Negeri
+  gfname_am: ነገሪ
+  age: 28
+  work: Carpenter at St. George Wood Works
+  work_am: የእንጨት ሥራ ባለሙያ
+  vital: 
+  vital_am: 
+- regnum: 11
+  name: Beyene
+  name_am: በየነ
+  fname: Kebede
+  fname_am: ከበደ
+  gfname: 
+  gfname_am: 
+  age: 35
+  work: Cobbler, owner of Jamaica Shoes Factory
+  work_am: የጫማ ሥራ ባለሙያና የጃማይካ ጫማ ፋብሪካ ባለቤት
+  vital: Deceased
+  vital_am: ነብስ ይማር
+- regnum: 12
+  name: Getachew
+  name_am: ጌታቸው
+  fname: Negussie
+  fname_am: ንጉሤ
+  gfname: 
+  gfname_am: 
+  age: 20
+  work: Student
+  work_am: ተማሪ
+  vital: 
+  vital_am: 
+- regnum: 13
+  name: Teklu
+  name_am: ተክሉ
+  fname: Solomon
+  fname_am: ሠሎሞን
+  gfname: 
+  gfname_am: 
+  age: 20
+  work: Garage technician, A Besse Ethiopia
+  work_am: ቴክኒሺያን፣ ኤ ቤሴ ኢትዮጵያ
+  vital: Unknown
+  vital_am: ያለበት ሁኔታ አልታወቀም
+- regnum: 14
+  name: Simegn
+  name_am: ስመኝ
+  fname: Wolde Berhan
+  fname_am: ወልደብርሃን
+  gfname: 
+  gfname_am: 
+  age: 19
+  work: United Abilities Company
+  work_am: ተዋህዶ ጥበብ ኩባንያ
+  vital: Deceased
+  vital_am: ነብስ ይማር
+- regnum: 15
+  name: Genet
+  name_am: ገነት 
+  fname: Mulushewa
+  fname_am: ሙሉሸዋ
+  gfname: 
+  gfname_am: 
+  age: 21
+  work: United Abilities Company
+  work_am: ተዋህዶ ጥበብ ኩባንያ
+  vital: 
+  vital_am: 
+- regnum: 16
+  name: Mami
+  name_am: ማሚ
+  fname: Tafesse
+  fname_am: ታፈሰ
+  gfname: 
+  gfname_am: 
+  age: 18
+  work: United Abilities Company
+  work_am: ተዋህዶ ጥበብ ኩባንያ
+  vital: Deceased
+  vital_am: ነብስ ይማር
+- regnum: 17
+  name: Abebe
+  name_am: አበበ
+  fname: Alemayehu
+  fname_am: ዓለማየሁ
+  gfname: 
+  gfname_am: 
+  age: 21
+  work: United Abilities Company
+  work_am: ተዋህዶ ጥበብ ኩባንያ
+  vital: Unknown
+  vital_am: ያለበት ሁኔታ አልታወቀም
+- regnum: 18
+  name: Settegn
+  name_am: ሰጠኝ
+  fname: Belachew
+  fname_am: በላቸው
+  gfname: 
+  gfname_am: 
+  age: 25
+  work: United Abilities Company
+  work_am: ተዋህዶ ጥበብ ኩባንያ
+  vital: 
+  vital_am: 
+- regnum: 19
+  name: Dotcho
+  name_am: ዶኮ
+  fname: Kabtihyimer
+  fname_am: ካብትህይመር
+  gfname: 
+  gfname_am: 
+  age: 20
+  work: United Abilities Company
+  work_am: ተዋህዶ ጥበብ ኩባንያ
+  vital: Deceased 2 September 2018
+  vital_am: ነብስ ይማር ነሐሴ 27/2010
+- regnum: 20
+  name: Enatienesh
+  name_am: እናቴነሽ
+  fname: Alemu
+  fname_am: ዓለሙ
+  gfname: 
+  gfname_am: 
+  age: 20
+  work: United Abilities Company
+  work_am: ተዋህዶ ጥበብ ኩባንያ
+  vital: 
+  vital_am: 
+- regnum: 21
+  name: Daniel (Shafie)
+  name_am: ዳንኤል (ሻፊ)
+  fname: Adam
+  fname_am: አዳም
+  gfname: 
+  gfname_am: 
+  age: 24
+  work: United Abilities Company
+  work_am: ተዋህዶ ጥበብ ኩባንያ
+  vital: Unknown
+  vital_am: ያለበት ሁኔታ አልታወቀም
+- regnum: 22
+  name: Wolde
+  name_am: ወልዴ
+  fname: Berhanu
+  fname_am: ብርሃኑ
+  gfname: 
+  gfname_am: 
+  age: 20
+  work: United Abilities Company
+  work_am: ተዋህዶ ጥበብ ኩባንያ
+  vital: 
+  vital_am: 
+- regnum: 23
+  name: Getachew
+  name_am: ጌታቸው
+  fname: Abebe
+  fname_am: አበበ
+  gfname: 
+  gfname_am: 
+  age: 27
+  work: United Abilities Company
+  work_am: ተዋህዶ ጥበብ ኩባንያ
+  vital: Deceased
+  vital_am: ነብስ ይማር
+- regnum: 24
+  name: Abebe
+  name_am: አበበ
+  fname: Lemma
+  fname_am: ለማ
+  gfname: 
+  gfname_am: 
+  age: 25
+  work: United Abilities Company
+  work_am: ተዋህዶ ጥበብ ኩባንያ
+  vital: 
+  vital_am: 
+- regnum: 25
+  name: Fekadu
+  name_am: ፈቃዱ
+  fname: Haile
+  fname_am: ኃይሌ
+  gfname: 
+  gfname_am: 
+  age: 18
+  work: Addis Printing Press
+  work_am: አዲስ ማተሚያ ቤት
+  vital: Deceased
+  vital_am: ነብስ ይማር
+- regnum: 26
+  name: Getachew
+  name_am: ጌታቸው
+  fname: Gebrehiwot
+  fname_am: ገብረሕይወት
+  gfname: 
+  gfname_am: 
+  age: 23
+  work: Fine artist, self employed
+  work_am: የሥነ-ጥበብ ባለሙያ
+  vital: Deceased
+  vital_am: ነብስ ይማር
+- regnum: 27
+  name: Alima
+  name_am: አሊማ
+  fname: Mohammed
+  fname_am: መሐመድ
+  gfname: 
+  gfname_am: 
+  age: 23
+  work: United Abilities Company
+  work_am: ተዋህዶ ጥበብ ኩባንያ
+  vital: 
+  vital_am: 
+- regnum: 28
+  name: Teklehaimanot
+  name_am: ተክለሃይማኖት
+  fname: Derso
+  fname_am: ደርሶ
+  gfname: 
+  gfname_am: 
+  age: 21
+  work: Student
+  work_am: ተማሪ
+  vital: 
+  vital_am: 
+- regnum: 29
+  name: Ayele
+  name_am: አየለ
+  fname: Zeleke
+  fname_am: ዘለቀ
+  gfname: 
+  gfname_am: 
+  age: 25
+  work: P. Thomas Tellephson Wood Works
+  work_am: ፒ. ቶማስ ቴሌፍሶን የእንጨት ሥራ ድርጅት
+  vital: Unknown
+  vital_am: ያለበት ሁኔታ አልታወቀም
+- regnum: 30
+  name: Yilma
+  name_am: ይልማ
+  fname: Hailu
+  fname_am: ኃይሉ
+  gfname: 
+  gfname_am: 
+  age: 23
+  work: Tailor, self employed
+  work_am: ልብስ ሰፊ፣ የራሱ ድርጅት ያለው
+  vital: Deceased January 2021
+  vital_am: ነብስ ይማር ታኅሣሥ 2013
+- regnum: 31
+  name: Saba
+  name_am: ሳባ
+  fname: Geremew
+  fname_am: ገረመው
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Student
+  work_am: ተማሪ
+  vital: 
+  vital_am: 
+- regnum: 32
+  name: Genet
+  name_am: ገነት
+  fname: Getachew
+  fname_am: ጌታቸው
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Student
+  work_am: ተማሪ
+  vital: 
+  vital_am: 
+- regnum: 33
+  name: Minasse
+  name_am: ምናሴ
+  fname: Abera
+  fname_am: አበራ
+  gfname: 
+  gfname_am: 
+  age: 22
+  work: Teacher
+  work_am: መምህር
+  vital: 
+  vital_am: 
+- regnum: 34
+  name: Alemseged
+  name_am: ዓለምሰገድ
+  fname: Araya
+  fname_am: አርአያ
+  gfname: 
+  gfname_am: 
+  age: 19
+  work: Student
+  work_am: ተማሪ
+  vital: 
+  vital_am: 
+- regnum: 35
+  name: Yohannes
+  name_am: ዮሐንስ
+  fname: Gebremariam
+  fname_am: ገብረማርያም
+  gfname: 
+  gfname_am: 
+  age: 30
+  work: Fine artist, General Advertizing Agency
+  work_am: የሥነ-ጥበብ ባለሙያ፣ አጠቃላይ የማስታወቂያ ኤጀንሲ
+  vital: Deceased
+  vital_am: ነብስ ይማር
+- regnum: 36
+  name: Afework
+  name_am: አፈወርቅ
+  fname: Haileselassie
+  fname_am: ኃይለሥላሴ
+  gfname: 
+  gfname_am: 
+  age: 23
+  work: United Abilities Company ???
+  work_am: ተዋህዶ ጥበብ ኩባንያ
+  vital: Unknown
+  vital_am: ያለበት ሁኔታ አልታወቀም
+- regnum: 37
+  name: Taye
+  name_am: ታዬ
+  fname: Bekele
+  fname_am: በቀለ
+  gfname: 
+  gfname_am: 
+  age: 
+  work: United Abilities Company
+  work_am: ተዋህዶ ጥበብ ኩባንያ
+  vital: Deceased
+  vital_am: ነብስ ይማር
+- regnum: 38
+  name: Abebe
+  name_am: አበበ
+  fname: Tibebe
+  fname_am: ጥበበ
+  gfname: Begna
+  gfname_am: በኛ
+  age: 54
+  work: Silverstri Visef Private Ltd. Co.
+  work_am: ሲልቨርስትሪ ቪሰፍ ሐላፊነቱ የተወሰነ ማኅበር ኩባንያ
+  vital: Deceased
+  vital_am: ነብስ ይማር
+- regnum: 39
+  name: Ayalew
+  name_am: አያሌው
+  fname: Guadu
+  fname_am: ጓዱ
+  gfname: 
+  gfname_am: 
+  age: 35
+  work: Unied Abilities Company
+  work_am: ተዋህዶ ጥበብ ኩባንያ
+  vital: Unknown
+  vital_am: ያለበት ሁኔታ ያልታወቀ
+- regnum: 40
+  name: Worku
+  name_am: ወርቁ
+  fname: Alemayehu
+  fname_am: ዓለማየሁ
+  gfname: 
+  gfname_am: 
+  age: 33
+  work: Tailor, self emlpoyed
+  work_am: ልብስ ሰፊ፣ የግል ድርጅት ያለው
+  vital: 
+  vital_am: 
+- regnum: 41
+  name: Solomon
+  name_am: ሠሎሞን
+  fname: Bantiwalu (Hearing)
+  fname_am: ባንቲዋሉ (የሚሰማ)
+  gfname: 
+  gfname_am: 
+  age: 22
+  work: Gold smith
+  work_am: የወርቅ ሥራ ባለሙያ
+  vital: Unknown
+  vital_am: ያለበት ሁኔታ ያልታወቀ
+- regnum: 42
+  name: Hizkias
+  name_am: ሕዝቅያስ
+  fname: Tesemma
+  fname_am: ተሰማ
+  gfname: 
+  gfname_am: 
+  age: 29
+  work: Fine artist, self employed
+  work_am: የሥነ-ጥበብ ባለሙያ፣ የግል ሥራ
+  vital: Deceased
+  vital_am: ነብስ ይማር
+- regnum: 43
+  name: Mamo
+  name_am: ማሞ
+  fname: Tiku
+  fname_am: ትኩ
+  gfname: 
+  gfname_am: 
+  age: 20
+  work: Berhanina Selam Printing Press
+  work_am: ብርሃንና ሠላም ማተምያ ቤት
+  vital: Unknown
+  vital_am: ያለበት ሁኔታ አልታወቀም
+- regnum: 44
+  name: Lala
+  name_am: ላላ
+  fname: Abdela
+  fname_am: አብደላ
+  gfname: 
+  gfname_am: 
+  age: 27
+  work: Menen Handicrafts School
+  work_am: መነን የእጅ ሥራ ትምህር ቤት
+  vital: Unknown
+  vital_am: ያለበት ሁኔታ አልታወቀም
+- regnum: 45
+  name: Taitu
+  name_am: ጣይቱ
+  fname: Se'id
+  fname_am: ሰይድ
+  gfname: 
+  gfname_am: 
+  age: 16
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 46
+  name: Bekele
+  name_am: በቀለ
+  fname: Kuma
+  fname_am: ኩማ
+  gfname: 
+  gfname_am: 
+  age: 16
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 47
+  name: Hiwot
+  name_am: ሕይወት
+  fname: Beyene
+  fname_am: በየነ
+  gfname: 
+  gfname_am: 
+  age: 17
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 48
+  name: Aynalem
+  name_am: ዓይናለም
+  fname: Engida
+  fname_am: እንግዳ
+  gfname: 
+  gfname_am: 
+  age: 16
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 49
+  name: Solomon
+  name_am: ሠሎሞን
+  fname: Wolde
+  fname_am: ወልዴ
+  gfname: 
+  gfname_am: 
+  age: 21
+  work: International Hotel
+  work_am: ኢንተርናሽናል ሆቴል
+  vital: 
+  vital_am: ያለበት ሁኔታ አልታወቀም
+- regnum: 50
+  name: Tesfaye
+  name_am: ተስፋዬ
+  fname: Gebreselassie
+  fname_am: ገብረሥላሴ
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Student
+  work_am: ተማሪ
+  vital: 
+  vital_am: 
+- regnum: 51
+  name: Bafena
+  name_am: ባፈና
+  fname: Beyene
+  fname_am: በየነ
+  gfname: 
+  gfname_am: 
+  age: 18
+  work: Student
+  work_am: ተማሪ
+  vital: Unknown
+  vital_am: ያለችበት ሁኔታ አልታወቀም
+- regnum: 52
+  name: Marefia
+  name_am: ማረፍያ
+  fname: Melka
+  fname_am: መልካ
+  gfname: 
+  gfname_am: 
+  age: 18
+  work: Student
+  work_am: ተማሪ
+  vital: Deceased
+  vital_am: ነብስ ይማር
+- regnum: 53
+  name: Gosaye
+  name_am: ጎሳዬ
+  fname: Balcha
+  fname_am: ባልቻ
+  gfname: 
+  gfname_am: 
+  age: 21
+  work: Student
+  work_am: ተማሪ
+  vital: 
+  vital_am: 
+- regnum: 54
+  name: Wolansa
+  name_am: ወላንሳ
+  fname: Tesfaye
+  fname_am: ተስፋዬ
+  gfname: 
+  gfname_am: 
+  age: 16
+  work: Student
+  work_am: ተማሪ
+  vital: 
+  vital_am: 
+- regnum: 55
+  name: Mestewat
+  name_am: መስታወት
+  fname: Tadesse
+  fname_am: ታደሰ
+  gfname: 
+  gfname_am: 
+  age: 15
+  work: Student
+  work_am: ተማሪ 
+  vital: 
+  vital_am: 
+- regnum: 56
+  name: Zewdu
+  name_am: ዘውዱ
+  fname: Tsehai
+  fname_am: ፀሐይ
+  gfname: 
+  gfname_am: 
+  age: 15
+  work: Student
+  work_am: ተማሪ
+  vital: Deceased 7 July 2020
+  vital_am: ነብስ ይማር ሰኔ 30/2012
+- regnum: 57
+  name: Mebrat
+  name_am: መብራት
+  fname: Tadesse
+  fname_am: ታደሰ
+  gfname: 
+  gfname_am: 
+  age: 15
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 58
+  name: Lulseged
+  name_am: ሉልሰገድ
+  fname: Kassa
+  fname_am: ካሣ
+  gfname: 
+  gfname_am: 
+  age: 15
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 59
+  name: Elfinesh
+  name_am: እልፍነሽ
+  fname: Bekele
+  fname_am: በቀለ
+  gfname: 
+  gfname_am: 
+  age: 15
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: Deceased
+  vital_am: ነብስ ይማር
+- regnum: 60
+  name: Seifu
+  name_am: ሰይፉ
+  fname: Abebe
+  fname_am: አበበ
+  gfname: 
+  gfname_am: 
+  age: 16
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 61
+  name: Mengesha
+  name_am: መንገሻ
+  fname: Seyoum
+  fname_am: ሥዩም
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 62
+  name: Gezahegn
+  name_am: ገዛኸን
+  fname: Hailu
+  fname_am: ኃይሉ
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 63
+  name: Yeshi
+  name_am: የሺ
+  fname: Qostir
+  fname_am: ቆስጥር
+  gfname: 
+  gfname_am: 
+  age: 15
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: Unknown
+  vital_am: ያለችበት ሁኔታ አልታወቀም
+- regnum: 64
+  name: Wubetie
+  name_am: ዉቢቱ 
+  fname: Zegeye
+  fname_am: ዘገየ
+  gfname: 
+  gfname_am: 
+  age: 14
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 65
+  name: Mamushet
+  name_am: ማሙሸት
+  fname: Abebe
+  fname_am: አበበ
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: Deceased 1992 E.C.
+  vital_am: ነብስ ይማር በ1992 ዓ.ም.
+- regnum: 66
+  name: Tamrat
+  name_am: ታምራት
+  fname: Abebe
+  fname_am: አበበ
+  gfname: 
+  gfname_am: 
+  age: 15
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: Unknown
+  vital_am: ያለበት ሁኔታ አልታወቀም
+- regnum: 67
+  name: Shewanesh
+  name_am: ሸዋነሽ
+  fname: Argaw/Aregawi
+  fname_am: አረጋዊ
+  gfname: 
+  gfname_am: 
+  age: 13
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 68
+  name: Zegeyech
+  name_am: ዘገየች
+  fname: Woldemariam
+  fname_am: ወልደማርያም
+  gfname: 
+  gfname_am: 
+  age: 13
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 69
+  name: Haregewein
+  name_am: ሐረገወይን
+  fname: Gizaw
+  fname_am: ግዛው
+  gfname: 
+  gfname_am: 
+  age: 13
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: Deceased
+  vital_am: ነብስ ይማር
+- regnum: 70
+  name: Beletech
+  name_am: በለጠች
+  fname: Gebremeskel
+  fname_am: ገብረመስቀላ
+  gfname: 
+  gfname_am: 
+  age: 14
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: Unknown
+  vital_am: ያለችበት ሁኔታ አልታወቀም
+- regnum: 71
+  name: Teshome
+  name_am: ተሾመ
+  fname: Bekele
+  fname_am: በቀለ
+  gfname: 
+  gfname_am: 
+  age: 13
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 72
+  name: Eshetu
+  name_am: እሸቱ
+  fname: Workneh
+  fname_am: ወርቅነህ
+  gfname: 
+  gfname_am: 
+  age: 17
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 73
+  name: Meseret
+  name_am: መሠረት
+  fname: Mekonnen
+  fname_am: መኮንን
+  gfname: 
+  gfname_am: 
+  age: 13
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 74
+  name: Sirak
+  name_am: ሲራክ
+  fname: Mekonnen
+  fname_am: መኮንን
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 75
+  name: Mekonnen
+  name_am: መኮንን
+  fname: Belay
+  fname_am: በላይ
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Fine artist, Tourist Trading Enterprise
+  work_am: የሥነ-ጥበብነ፣ የቱሪስት ንግድ ሥራ ድርጅት 
+  vital: Deceased
+  vital_am: ነብስ ይማር
+- regnum: 76
+  name: Tilahun
+  name_am: ጥላሁን
+  fname: Alemu
+  fname_am: ዓለሙ
+  gfname: 
+  gfname_am: 
+  age: 18
+  work: 
+  work_am: 
+  vital: Unknown
+  vital_am: ያለበት ሁኔታ አልታወቀም
+- regnum: 77
+  name: Abebe
+  name_am: አበበ
+  fname: Mengesha
+  fname_am: መንገሻ
+  gfname: 
+  gfname_am: 
+  age: 15
+  work: Student
+  work_am: ተማሪ
+  vital: 
+  vital_am: 
+- regnum: 78
+  name: Oumer
+  name_am: ኡመር
+  fname: Suleiman
+  fname_am: ሱሌይማን
+  gfname: 
+  gfname_am: 
+  age: 18
+  work: Suker Shoes Factory
+  work_am: ሱኩር የጫማ ፋብሪካ
+  vital: Unknown
+  vital_am: ያለበት ሁኔታ አልታወቀም
+- regnum: 79
+  name: Tadelech
+  name_am: ታደለች
+  fname: Areda
+  fname_am: አረዳ
+  gfname: 
+  gfname_am: 
+  age: 16
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 80
+  name: Tsegaye
+  name_am: ፀጋዬ
+  fname: Meskela
+  fname_am: መስቀላ
+  gfname: 
+  gfname_am: 
+  age: 14
+  work: 
+  work_am: 
+  vital: Unknown
+  vital_am: ያለበት ሁኔታ አልታወቀም
+- regnum: 81
+  name: Enanie
+  name_am: እናኔ
+  fname: Bekele
+  fname_am: በቀለ
+  gfname: 
+  gfname_am: 
+  age: 20
+  work: United Abilities Company
+  work_am: ተዋህዶ ጥበብ ኩባንያ
+  vital: Unknown
+  vital_am: ያለችበት ሁኔታ አልታወቀም
+- regnum: 82
+  name: Wagaye
+  name_am: ዋጋዬ
+  fname: Gettie
+  fname_am: ጌጤ
+  gfname: 
+  gfname_am: 
+  age: 16
+  work: 
+  work_am: 
+  vital: Deceased
+  vital_am: ነብስ ይማር
+- regnum: 83
+  name: Zenitu (Hearing)
+  name_am: ዘኒቱ (የምትሰማ)
+  fname: Se'id
+  fname_am: ሰይድ
+  gfname: 
+  gfname_am: 
+  age: 14
+  work: Casanchis
+  work_am: ካዛንቺስ
+  vital: 
+  vital_am: 
+- regnum: 84
+  name: Kidane
+  name_am: ኪዳነ 
+  fname: Habte
+  fname_am: ሃብቴ
+  gfname: 
+  gfname_am: 
+  age: 11
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 85
+  name: Zerihun
+  name_am: ዘሪሁን
+  fname: Mekonnen
+  fname_am: መኮንን
+  gfname: 
+  gfname_am: 
+  age: 16
+  work: Student, Bole School for the Deaf
+  work_am: ተማሪ፣ ቦሌ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 86
+  name: Selamawit
+  name_am: ሠላማዊት
+  fname: Mengistu
+  fname_am: መንግሥቱ
+  gfname: 
+  gfname_am: 
+  age: 20
+  work: Teacher
+  work_am: መምህርት
+  vital: 
+  vital_am: 
+- regnum: 87
+  name: Abrehet
+  name_am: አብርሄት
+  fname: Hagos
+  fname_am: ሐጎስ
+  gfname: 
+  gfname_am: 
+  age: 15
+  work: Student
+  work_am: ተማሪ
+  vital: 
+  vital_am: 
+- regnum: 88
+  name: Girma
+  name_am: ግርማ
+  fname: Dilnesaw
+  fname_am: ድልነሳሁ
+  gfname: 
+  gfname_am: 
+  age: 17
+  work: Student
+  work_am: ተማሪ
+  vital: 
+  vital_am: 
+- regnum: 89
+  name: Enanu
+  name_am: እናኑ
+  fname: Mamo
+  fname_am: ማሞ
+  gfname: 
+  gfname_am: 
+  age: 15
+  work: United Abilities Company, Umbrella Factory
+  work_am: ተዋህዶ ጥበብ ኩባንያ፣ ጃንጥላ ፋብሪካ
+  vital: 
+  vital_am: 
+- regnum: 90
+  name: Azezew
+  name_am: አዘዘው
+  fname: Mekonnen
+  fname_am: መኮንን
+  gfname: 
+  gfname_am: 
+  age: 
+  work: United Abilities Company, Umbrella Factory
+  work_am: ተዋህዶ ጥበብ ኩባንያ፣ ጃንጥላ ፋብሪካ
+  vital: 
+  vital_am: 
+- regnum: 91
+  name: Wesene
+  name_am: ወሰኔ
+  fname: Belachew
+  fname_am: በላቸው
+  gfname: 
+  gfname_am: 
+  age: 19
+  work: United Abilities Company, Umbrella Factory 
+  work_am: ተዋህዶ ጥበብ ኩባንያ፣ ጃንጥላ ፋብሪካ
+  vital: 
+  vital_am: 
+- regnum: 92
+  name: Alemnesh
+  name_am: ዓለምነሽ
+  fname: Wondafrash
+  fname_am: ወንዳፍራሽ
+  gfname: 
+  gfname_am: 
+  age: 12
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 93
+  name: Eshetu
+  name_am: እሸቱ
+  fname: Mitiku
+  fname_am: ምትኩ
+  gfname: 
+  gfname_am: 
+  age: 26
+  work: Etege Menen Handicrafts
+  work_am: እቴጌ መነን የእጅ ሥራ
+  vital: 
+  vital_am: 
+- regnum: 94
+  name: Nusur
+  name_am: ኑሱር
+  fname: Mohammed
+  fname_am: መሐመድ
+  gfname: 
+  gfname_am: 
+  age: 14
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 95
+  name: Gemeda
+  name_am: ገመዳ
+  fname: Wordofa
+  fname_am: ዎርዲፋ
+  gfname: 
+  gfname_am: 
+  age: 22
+  work: United Abilities Compant, Umbrella Factory
+  work_am: ተዋህዶ ጥበብ ኩባንያ፣ ጃንጥላ ፋብሪካ
+  vital: 
+  vital_am: 
+- regnum: 96
+  name: Mesfin
+  name_am: መስፍን
+  fname: Negussie
+  fname_am: ንጉሤ
+  gfname: 
+  gfname_am: 
+  age: 13
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 97
+  name: Weletu
+  name_am: ወለቱ
+  fname: Tadesse
+  fname_am: ታደሰ
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 98
+  name: Letyibelu
+  name_am: ለጥይበሉ
+  fname: Legesse
+  fname_am: ለገሰ
+  gfname: 
+  gfname_am: 
+  age: 14
+  work: Unemployed
+  work_am: ሥራ ፈላጊ
+  vital: Deceased
+  vital_am: ነብስ ይማር
+- regnum: 99
+  name: Tadesse
+  name_am: ታደሰ
+  fname: Kidane
+  fname_am: ኪዳኔ
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Student, Bole School for the Deaf
+  work_am: ተማሪ፣ ቦሌ መስማት የተሳናቸው ትምህርት ቤት
+  vital: Deceased
+  vital_am: ነብስ ይማር
+- regnum: 100
+  name: Tilahun
+  name_am: ጥላሁን
+  fname: Banjaw
+  fname_am: ባንጃው
+  gfname: 
+  gfname_am: 
+  age: 19
+  work: United Abilities Company, Umbrella Factory
+  work_am: ተዋህዶ ጥበብ ኩባንያ፣ ጃንጥላ ፋብሪካ
+  vital: 
+  vital_am: 
+- regnum: 101
+  name: Marta
+  name_am: ማርታ
+  fname: Wendimeneh/Wendimagegnehu
+  fname_am: ወንድምአገኘሁ
+  gfname: 
+  gfname_am: 
+  age: 8
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: Deceased
+  vital_am: ነብስ ይማር
+- regnum: 102
+  name: Samuel
+  name_am: ሳሙኤል
+  fname: Arega
+  fname_am: አረጋ
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Unemployed
+  work_am: ሥራ ፈላጊ
+  vital: 
+  vital_am: 
+- regnum: 103
+  name: Aselefech
+  name_am: አሰለፈች
+  fname: Tiku
+  fname_am: ትኩ
+  gfname: 
+  gfname_am: 
+  age: 6
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 104
+  name: Gomeju
+  name_am: ጎመጁ
+  fname: Tafese
+  fname_am: ታፈሰ
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Teacher, Bole School for the Deaf
+  work_am: መምህርትM ቦሌ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 105
+  name: Teklu
+  name_am: ተክሉ
+  fname: Desalegn
+  fname_am: ደሳለኝ
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Student, Bole School for the Deaf
+  work_am: ተማሪ፣ ቦሌ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 106
+  name: Demsie
+  name_am: ደምሴ
+  fname: Admasu
+  fname_am: አድማሱ
+  gfname: 
+  gfname_am: 
+  age: 22
+  work: Student, Bole School for the Deaf
+  work_am: ተማሪ፣ ቦሌ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 107
+  name: Yilfushewa
+  name_am: ይልፉሸዋ
+  fname: Awgichew
+  fname_am: አውግቸው
+  gfname: 
+  gfname_am: 
+  age: 22
+  work: 
+  work_am: 
+  vital: 
+  vital_am: 
+- regnum: 108
+  name: Abraham
+  name_am: አብርሃም
+  fname: Wolde Gebriel
+  fname_am: ወልደገብርኤል
+  gfname: 
+  gfname_am: 
+  age: 15
+  work: Student, Bole School for the Deaf
+  work_am: ተማሪ፣ ቦሌ መስማት የተሳናቸው ትምህርት ቤት
+  vital: Deceased
+  vital_am: ነብስ ይማር
+- regnum: 109
+  name: Dibaba
+  name_am: ዲባባ
+  fname: Bedada
+  fname_am: በዳዳ
+  gfname: 
+  gfname_am: 
+  age: 24
+  work: United Abilities Company
+  work_am: የተዋህዶ ጥበብ ኩባንያ
+  vital: 
+  vital_am: 
+- regnum: 110
+  name: Mamo
+  name_am: ማሞ
+  fname: Worku
+  fname_am: ወርዉ
+  gfname: 
+  gfname_am: 
+  age: 36
+  work: United Abilities Company
+  work_am: የተዋህዶ ጥበብ ኩባንያ
+  vital: 
+  vital_am: 
+- regnum: 111
+  name: Atalelech
+  name_am: አታለለች
+  fname: Fikre
+  fname_am: ፍቅሬ
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 112
+  name: Etenesh
+  name_am: ኤቴነሽ
+  fname: Wondyifraw
+  fname_am: ወንድይፍራው
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 113
+  name: Tedla
+  name_am: ተዳላ
+  fname: Wondyifraw
+  fname_am: ወንድይፍራው
+  gfname: 
+  gfname_am: 
+  age: 10
+  work: Student
+  work_am: ተማሪ
+  vital: 
+  vital_am: 
+- regnum: 114
+  name: Gebrela
+  name_am: ገብሬኤላ
+  fname: Ftiwi
+  fname_am: ፍትዊ
+  gfname: 
+  gfname_am: 
+  age: 10
+  work: Student
+  work_am: ተማሪ
+  vital: Deceased 21 July 2021
+  vital_am: ነብስ ይማር ሐምሌ 14/2013
+- regnum: 115
+  name: Mekonnen
+  name_am: መኮንን
+  fname: Mebratu
+  fname_am: መብራቱ
+  gfname: 
+  gfname_am: 
+  age: 18
+  work: Student
+  work_am: ተማሪ
+  vital: 
+  vital_am: 
+- regnum: 116
+  name: Demsie
+  name_am: ደምሴ
+  fname: Eshetu
+  fname_am: እሸቱ
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Student
+  work_am: ተማሪ
+  vital: 
+  vital_am: 
+- regnum: 117
+  name: Kidist
+  name_am: ቅድስት
+  fname: Belachew
+  fname_am: በላቸው
+  gfname: 
+  gfname_am: 
+  age: 22
+  work: Student
+  work_am: ተማሪ
+  vital: 
+  vital_am: 
+- regnum: 118
+  name: Abeselom
+  name_am: አበሴሎም
+  fname: Asfaw
+  fname_am: አስፋው
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Book binder at Asrat Lemma Book Binding Special Expert
+  work_am: መጻሕፍት ጠራዥ፣ አሥራት የመኃሕፍት ጠረዛ ልዩ አዋቂ
+  vital: 
+  vital_am: 
+- regnum: 119
+  name: Abera
+  name_am: አበራ
+  fname: Kassa
+  fname_am: ካሣ
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Carpenter
+  work_am: አናፂ
+  vital: 
+  vital_am: 
+- regnum: 120
+  name: Haile 
+  name_am: ኃይለ
+  fname: Bokre  (hearing) 
+  fname_am: በኩረ (የሚሰማ)
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Student/Accountant at United Abilities Company
+  work_am: ተማሪ/ሂሣብ ሠራተኛ፣ ተዋህዶ ጥበብ ኩባንያ
+  vital: 
+  vital_am: 
+- regnum: 121
+  name: Meseret
+  name_am: መሠረት
+  fname: Mengistie
+  fname_am: መንግሥቴ
+  gfname: Tesemma
+  gfname_am: ተሰማ
+  age: 12
+  work: Student
+  work_am: ተማሪ
+  vital: 
+  vital_am: 
+- regnum: 122
+  name: Tadesse
+  name_am: ታደሰ
+  fname: Birega
+  fname_am: ቢረጋ
+  gfname: 
+  gfname_am: 
+  age: 16
+  work: Student
+  work_am: ተማሪ
+  vital: 
+  vital_am: 
+- regnum: 123
+  name: Agede
+  name_am: አገደ
+  fname: Hawaz
+  fname_am: ሃዋዝ
+  gfname: 
+  gfname_am: 
+  age: 20
+  work: Self employed ( Yegil ?)
+  work_am: የግል ሥራ
+  vital: 
+  vital_am: 
+- regnum: 124
+  name: Konjit
+  name_am: ቆንጂት
+  fname: Kassaye
+  fname_am: ካሣዬ
+  gfname: 
+  gfname_am: 
+  age: 14
+  work: Student
+  work_am: ተማሪ
+  vital: 
+  vital_am: 
+- regnum: 125
+  name: Gebeyehu
+  name_am: ገበየሁ
+  fname: Belachew
+  fname_am: በላቸው
+  gfname: Asres
+  gfname_am: 
+  age: 
+  work: United Abilities Company
+  work_am: ተዋህዶ ጥበብ ኩባንያ
+  vital: 
+  vital_am: 
+- regnum: 126
+  name: Tadesse
+  name_am: ታደሰ
+  fname: Mekonnen
+  fname_am: መኮንን
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 127
+  name: Gore
+  name_am: ጎሬ
+  fname: Kifle
+  fname_am: ክፍሌ
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Mechanic at Shoa Printing Press
+  work_am: መካሊክ፣ ሸዋ ማተሚያ ቤት
+  vital: 
+  vital_am: 
+- regnum: 128
+  name: Abebe
+  name_am: አበበ
+  fname: Gebre
+  fname_am: ገብሬ
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 129
+  name: Solomon
+  name_am: ሠሎሞን
+  fname: Akalu
+  fname_am: አካሉ
+  gfname: 
+  gfname_am: 
+  age: 19
+  work: United Abilities Company
+  work_am: ተዋህዶ ጥበብ ኩባንያ
+  vital: Deceased
+  vital_am: ነብስ ይማር
+- regnum: 130
+  name: Tesfamariam
+  name_am: ተስፋማርያም
+  fname: Desta
+  fname_am: ደስታ
+  gfname: 
+  gfname_am: 
+  age: 25
+  work: United Abilities Company
+  work_am: ተዋህዶ ጥበብ ኩባንያ
+  vital: Deceased
+  vital_am: ነብስ ይማር
+- regnum: 131
+  name: Abebech
+  name_am: አበበች
+  fname: Yimer
+  fname_am: ይመር
+  gfname: 
+  gfname_am: 
+  age: 16
+  work: United Abilities Company
+  work_am: ተዋህዶ ጥበብ ኩባንያ
+  vital: Deceased
+  vital_am: ነብስ ይማር
+- regnum: 132
+  name: Mamie
+  name_am: ማሜ
+  fname: Terefe
+  fname_am: ተረፈ
+  gfname: 
+  gfname_am: 
+  age: 13
+  work: 
+  work_am: 
+  vital: 
+  vital_am: 
+- regnum: 133
+  name: Almaz
+  name_am: አልማዝ
+  fname: Gashaw
+  fname_am: ጋሻው
+  gfname: 
+  gfname_am: 
+  age: 14
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 134
+  name: Menen
+  name_am: መነን
+  fname: Abera
+  fname_am: አበራ
+  gfname: 
+  gfname_am: 
+  age: 15
+  work: 
+  work_am: 
+  vital: 
+  vital_am: 
+- regnum: 135
+  name: Asnaku
+  name_am: አስናቁ
+  fname: Abera
+  fname_am: አበራ
+  gfname: 
+  gfname_am: 
+  age: 
+  work: 
+  work_am: 
+  vital: Deceased
+  vital_am: ነብስ ይማር
+- regnum: 136
+  name: Askale
+  name_am: አካለ
+  fname: Amha
+  fname_am: አመሃ
+  gfname: 
+  gfname_am: 
+  age: 21
+  work: 
+  work_am: 
+  vital: Unknown
+  vital_am: ያለበት ሁኔታ አልታወቀም
+- regnum: 137
+  name: Debebe
+  name_am: ደበበ
+  fname: Ayalew
+  fname_am: አያሌው
+  gfname: 
+  gfname_am: 
+  age: 
+  work: 
+  work_am: 
+  vital: 
+  vital_am: 
+- regnum: 138
+  name: Samia
+  name_am: ሳሚያ
+  fname: Oumer
+  fname_am: ኡመር
+  gfname: 
+  gfname_am: 
+  age: 
+  work: 
+  work_am: 
+  vital: Unknown
+  vital_am: ያለችበት ሁኔታ አልታወቀም
+- regnum: 139
+  name: Tamrat
+  name_am: ታምራት
+  fname: Amenu
+  fname_am: አመኑ
+  gfname: 
+  gfname_am: 
+  age: 16
+  work: 
+  work_am: 
+  vital: Unknown
+  vital_am: ያለበት ሁኔታ አልታወቀም
+- regnum: 140
+  name: Workineh
+  name_am: ወርቅነህ
+  fname: Teklu
+  fname_am: ተክሉ
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 141
+  name: Tsegu
+  name_am: ፀጉ
+  fname: Lisanework
+  fname_am: ልሳነወርቅ
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Student, Amha Desta School for the Deaf
+  work_am: ተማሪ፣ አመሃ ደስታ መስማት የተሳናቸው ትምህርት ቤት
+  vital: Unknown
+  vital_am: ያለበት ሁኔታ አልታወቀም
+- regnum: 142
+  name: Zinash
+  name_am: ዝናሽ
+  fname: Kasaye
+  fname_am: ካሣዬ
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Student, Bole Baptist School for the Deaf
+  work_am: ተማሪ፣ ቦሌ መጥምቃውያን መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 143
+  name: Mulu
+  name_am: ሙሉ
+  fname: Abera
+  fname_am: አበራ
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Student, Bole Baptist School for the Deaf
+  work_am: ተማሪ፣ ቦሌ መጥምቃውያን መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 
+- regnum: 144
+  name: Kumulachew
+  name_am: ቁምላቸው
+  fname: Woldegiorgis
+  fname_am: ወልደጊዮርጊስ
+  gfname: 
+  gfname_am: 
+  age: 
+  work: 
+  work_am: 
+  vital: 
+  vital_am: 
+- regnum: 145
+  name: Misraktsehay
+  name_am: ምሥራቅፀሐይ
+  fname: Nebro
+  fname_am: ነብሮ
+  gfname: 
+  gfname_am: 
+  age: 
+  work: Student, Bole Baptist School for the Deaf
+  work_am: ተማሪ፣ ቦሌ መጥምቃውያን መስማት የተሳናቸው ትምህርት ቤት
+  vital: 
+  vital_am: 

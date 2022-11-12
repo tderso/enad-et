@@ -1,0 +1,520 @@
+collections:
+  authors:
+    output: true
+  branchoffices:
+    output: true
+  co_action_donors:
+    output: true
+  editorialpolicy:
+    output: true
+  ENAD_partners:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+t:
+  en:
+    home:
+      name: "Home"
+      url: "/"
+    about:
+      name: "About"
+      url: "/about/"
+    history:
+      name: "History"
+      url: "/history/"
+    ethsl:
+      name: "Ethsl"
+      url: "/ethsl/"
+    branches:
+      name: "Branches"
+      url: "/branches/"
+    more:
+      name: "Projects"
+      url: "/projects/"
+    blog:
+      name: "New & Views"
+      url: "/news/"
+    sports:
+      name: "Sports"
+      url: "/sports/"
+    staff:
+      name: "Staff"
+      url: "/staff/" 
+
+  am:
+    home:
+      name: "መነሻ ገፅ"
+      url: "/መነሻ/"
+    about:
+      name: "ስለ እኛ"
+      url: "/ስለ-እኛ/"
+    history:
+      name: "ታሪክ"
+      url: "/ታሪክ/"
+    ethsl:
+      name: "ኢምቋ"
+      url: "/ኢምቋ/"
+    branches:
+      name: "ቅርንጫፎች"
+      url: "/ቅርንጫፎች/"
+    more:
+      name: "ዕቅዶች"
+      url: "/ዕቅዶች/"
+    blog:
+      name: "ዜና እና አስተያዬት"
+      url: "/ዘገባ/"
+    sports:
+      name: "ስፖርት"
+      url: "/ስፖርት/"
+    staff:
+      name: "ባልደረቦቻችን"
+      url: "/ባልደረቦቻችን/"
+
+mainMenu:
+  en:
+    home:
+      name: "Home"
+      url: "/"
+    about:
+      name: "About"
+      url: "/about/"
+    projects:
+      name: "Projects"
+      url: "/projects/"
+    blog:
+      name: "News / Views"
+      url: "/news/"
+
+  am:
+    home:
+      name: "መነሻ ገፅ"
+      url: "/መነሻ/"
+    about:
+      name: "ስለ እኛ"
+      url: "/ስለ-እኛ/"
+    projects:
+      name: "ዕቅዶች"
+      url: "/ዕቅዶች/"
+    blog:
+      name: "ዜና / አስተያዬት"
+      url: "/ዘገባ/"
+
+subMenu:
+  en:
+    aboutus:
+      name: "About Us"
+      url: "/about/"
+    history:
+      name: "History"
+      url: "/history/"
+    ethsl:
+      name: "Ethiopian Sign Language"
+      url: "/ethsl/"
+    branches:
+      name: "Branches"
+      url: "/branches/"
+    preschool:
+      name: "Preschool"
+      url: "/preschool/"
+    sections:
+      name: "Sections"
+      url: "/sections/"
+    sport:
+      name: "Sport"
+      url: "/sport/"
+
+  am:
+    aboutus:
+      name: "ማን ነን?"
+      url: "/ስለ-እኛ/"
+    history:
+      name: "ታሪክ"
+      url: "/ታሪክ/"
+    ethsl:
+      name: "ኢምቋ"
+      url: "/ኢምቋ/"
+    branches:
+      name: "ቅርንጫፎች"
+      url: "/ቅርንጫፎች/"
+    preschool:
+      name: "የሕፃናት ት/ቤት"
+      url: "/ሕፃናት/"
+    sections:
+      name: "ዘርፎች"
+      url: "/ዘርፎች/"
+    sport:
+      name: "ስፖርት"
+      url: "/ስፖርት/"
+
+projects:
+  en:
+    completed:
+      name: "Completed Projects"
+      url: "/completed-projects/"
+    ongoing:
+      name: "On-going"
+      url: "/on-going-projects/"
+
+  am:
+    completed:
+      name: "የተጠናቀቁ ዕቅዶች"
+      url: "/የተጠናቀቁ-ዕቅዶች/"
+    ongoing:
+      name: "በትግበራ ላይ ያሉ"
+      url: "/በትግበራ-ላይ/"
+
+blogMenu:
+  en:
+    blogs:
+      name: "News and Views"
+      url: "/news/"
+    bloggers:
+      name: "Authors"
+      url: "/staff/"
+
+  am:
+    blogs:
+      name: "ዜናዎችና አስተያዬቶች"
+      url: "/ዘገባ/"
+    bloggers:
+      name: "ጸሐፊዎች"
+      url: "/ባልደረቦቻችን/"
+
+regionsMenu:
+  en:
+    addis:
+      name: "Addis Ababa"
+      url: "/addis/"
+    afar: 
+      name: "Afar"
+      url: "/afar/"
+    amhara: 
+      name: "Amhara"
+      url: "/amhara/"
+    bengum: 
+      name: "Benishangul&nbsp;Gumuz"
+      url: # "/benishangulgumuz/"
+    dire: 
+      name: "Dire Dawa"
+      url: "/diredawa/"
+    gambel: 
+      name: "Gambella"
+      url: "/gambella/"
+    harari: 
+      name: "Harari"
+      url: "/harari/"
+    oromiya: 
+      name: "Oromiya"
+      url: "/oromiya/"
+    sidama: 
+      name: "Sidama"
+      url: "/sidama/"
+    somale: 
+      name: "Somale"
+      url: "/somale/"
+    snnps: 
+      name: "SNNPS"
+      url: "/snnps/"
+    tigrai: 
+      name: "Tigrai"
+      url: "/tigrai/"
+
+  am:
+    addis:
+      name: "አዲስ አበባ"
+      url: "/አዲስ/"
+    afar: 
+      name: "አፋር"
+      url: "/አፋር/"
+    amhara: 
+      name: "አምሃራ"
+      url: "/አምሃራ/"
+    bengum: 
+      name: "ቤኒሻንጉል&nbsp;ጉሙዝ"
+      url: # "/ቤኒሻንጉልጉሙዝ/"
+    dire: 
+      name: "ድሬዳዋ"
+      url: '/ድሬዳዋ/'
+    gambel: 
+      name: "ጋምቤላ"
+      url: "/ጋምቤላ/"
+    harari: 
+      name: "ሐራሪ"
+      url: "/ሐራሪ/"
+    oromiya: 
+      name: "ኦሮሚያ"
+      url: "/ኦሮሚያ/"
+    sidama: 
+      name: "ሲዳማ"
+      url: "/ሲዳማ/"
+    somale: 
+      name: "ሶማሌ"
+      url: "/ሶማሌ/"
+    snnps: 
+      name: "ደቡብ ሕዝቦች"
+      url: "/ደቡብ_ሕዝቦች/"
+    tigrai: 
+      name: "ትግራይ"
+      url: "/ትግራይ/"  
+
+navyouth:
+  en:
+    youtheducation: "Education of the Deaf"
+    youthhealth: "Health"
+    youthsocial: "Social"
+    youthinfocom: "Information and communication"
+    youthrecreation: "Recreation"
+    youthsport: "Sport"
+
+  am:
+    youtheducation: "የመስማት የተሳናቸው ትምህርት"
+    youthhealth: "ጤና"
+    youthsocial: "ማኅበራዊ"
+    youthinfocom: "መረጃ እና መገናኛ"
+    youthrecreation: "መዝናኛ"
+    youthsport: "ስፖርት"
+
+amhara:
+  en:
+    bahirdar:
+      name: "Bahir Dar"
+      url: "/bahirdar/"
+    debrebirhan:
+      name: "Debre Birhan"
+      url: "/debrebirhan/"
+    dessie:
+      name: "Dessie"
+      url: "/dessie/"
+    fnoteselam:
+      name: "Fnote Selam"
+      url: "/fnoteselam/"
+    gonder:
+      name: "Gonder"
+      url: "/gonder/"
+
+  am:
+    bahirdar:
+      name: "ባሕር ዳር"
+      url: "/ባሕርዳር/"
+    debrebirhan:
+      name: "ደብረ ብርሃን"
+      url: "/ደብረብርሃን/"
+    dessie:
+      name: "ደሴ"
+      url: "/ደሴ/"
+    fnoteselam:
+      name: "ፍኖተ ሰላም"
+      url: "/ፍኖተሰላም/"
+    Gonder:
+      name: "ጎንደር"
+      url: "/ጎንደር/"
+      
+afar:
+  en:
+    asaita:
+      name: "Asaita"
+      url: "/asaita/"
+    semera:
+      name: "Semera"
+      url: "/semera/"
+
+  am:
+    asaita:
+      name: "አሳይታ"
+      url: "/አሳይታ/"
+    semera:
+      name: "ሰመራ"
+      url: "/ሰመራ/"
+
+oromiya:
+  en:
+    adama:
+      name: "Adama"
+      url: "/adama/"
+    ambo:
+      name: "Ambo"
+      url: "/ambo/"
+    asella:
+      name: "Asella"
+      url: "/asella/"
+    balerobe:
+      name: "Bale Robie"
+      url: "/balerobie/"
+    jimma:
+      name: "Jimma"
+      url: "/jimma/"
+    nekemte:
+      name: "Nekemtie"
+      url: "/nekemtie/"
+    shasha:
+      name: "Shashamene"
+      url: "/shashamene/"
+
+  am:
+    adama:
+      name: "አዳማ"
+      url: "/አዳማ/"
+    ambo:
+      name: "አምቦ"
+      url: "/አምቦ/"
+    asella:
+      name: "አሰላ"
+      url: "/አሰላ/"
+    balerobe:
+      name: "ባሌ ሮቤ"
+      url: "/ባሌሮቤ/"
+    jimma:
+      name: "ጅማ"
+      url: "/ጅማ/"
+    nekemte:
+      name: "ነቀምቴ"
+      url: "/ነቀምቴ/"
+    shasha:
+      name: "ሻሻማኔ"
+      url: "/ሻሻማኔ/"
+
+sidama:
+  en:
+    awondo:
+      name: "Aleta Wondo"
+      url: "/aletawondo/"
+    dilla:
+      name: "Dilla"
+      url: "/dilla/"
+    hawassa:
+      name: "Hawassa"
+      url: "/hawassa/"
+  am:
+    awondo:
+      name: "አለታ ዎንዶ"
+      url: "/አለታዎንዶ/"
+    dilla:
+      name: "ዲላ"
+      url: "/ዲላ/"
+    hawassa:
+      name: "ሐዋሳ"
+      url: "/ሐዋሳ/"
+
+somale:
+  en:
+    jig:
+      name: "Jigjiga"
+      url: "/jigjiga/"
+  am:
+    jig:
+      name: "ጂግጂጋ"
+      url: "/ጂግጂጋ/"
+
+snnps:
+  en:
+    arba:
+      name: "Arba Mintch"
+      url: "/arbamintch/"
+    hosana:
+      name: "Hosaena"
+      url: "/hosaena/"
+    wsodo:
+      name: "Wolayita Sodo"
+      url: "/wolayitasodo/"
+  am:
+    arba:
+      name: "አርባ ምንጭ"
+      url: "/አርባምንጭ/"
+    hosana:
+      name: "ሆሣዕና"
+      url: "/ሆሣዕና/"
+    wsodo:
+      name: "ዎላይታ ሶዶ"
+      url: "/ዎላይታሶዶ/"
+
+tigrai:
+  en:
+    adigrat:
+      name: "Adigrat"
+      url: "/adigrat/"
+    axum:
+      name: "Axum"
+      url: "/axum/"
+    mekelle:
+      name: "Mekelle"
+      url: "/mekelle/"
+  am:
+    adigrat:
+      name: "ዓዲግራት"
+      url: "/ዓዲግራት/"
+    axum:
+      name: "ኣክሱም"
+      url: "/ኣክሱም/"
+    mekelle:
+      name: "መቐለ"
+      url: "/መቐለ/"
+
+sectionsMenu:
+  en:
+    children:
+      name: "Deaf Children"
+      url: "/preschool/"
+    youth:
+      name: "Deaf Youth"
+      url: "/youth/"
+    women:
+      name: "Deaf Women"
+      url: "/women/"
+    seniors:
+      name: "Deaf Seniors"
+      url: "/seniors/"
+
+  am:
+    children:
+      name: "መስማት የተሳናቸው ሕፃናት"
+      url: "/ሕፃናት/"
+    youth:
+      name: "መስማት የተሳናቸው ወጣቶች"
+      url: "/ወጣቶች/"
+    women:
+      name: "መስማት የተሳናቸው ሴቶች"
+      url: "/ሴቶች/"  
+    seniors:
+      name: "መስማት የተሳናቸው አረጋውያን"
+      url: "/አረጋውያን/"
+      
+m:
+  en:
+    mobmenu: "Menu"
+
+  am:
+    mobmenu: "መምረጫ"
+
+titles:
+  en:
+    fulltitle: "Ethiopian National Association of the Deaf"
+    abrvtitle: "ENAD"
+    otherposts: "Other posts by"
+
+  am:
+    fulltitle: "የኢትዮጵያ መስማት የተሳናቸው ብሔራዊ ማኅበር"
+    abrvtitle: "ኢመየብማ"
+    otherposts: "ሌሎች ዘገባዎች በ"
+
+copyright:
+  en: 
+    nocopying: "Copy Right © 2017 The Ethiopian National Association of the Deaf (ENAD)<br/>P. O. Box 21359, Addis Ababa, Ethiopia"
+
+  am: 
+    nocopying: "የቅጅ መብት የተጠበቀ ነው። © 2010 ዓ.ም. የኢትዮጵያ መስማት የተሳናቸው ብሔራዊ ማኅበር (ኢመየብማ)<br/>ፖ. ሳ. ቁጥር 21359፣ አዲስ አበባ፣ ኢትዮጵያ"
+
